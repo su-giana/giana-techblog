@@ -22,6 +22,7 @@ permalink: /
 <br><span>Majoring Software Engineering in South Korea</span><br>
 <span>Contact. <strong>giananews@gmail.com</strong>📟</span>
 </div>
+</div>
 
 ### Tech. stack
 - django
