@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 <div id="main-sector">
-<div  width="1500em" height="500em" style="padding:0em 5em;">
+<div  width="1500em" height="500em" style="padding:0em 3em;">
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
 <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
@@ -17,7 +17,7 @@ permalink: /
 </p>
 </div>
 
-<div style="padding: 2em 1em;">
+<div>
 <img src="../assets/image.jpg" height="250em" width="250em" style="border-radius:50%">
 <br><span>Majoring Software Engineering in South Korea</span><br>
 <span>Contact. <strong>giananews@gmail.com</strong>📟</span>
@@ -38,6 +38,7 @@ permalink: /
 - [[Articles]] 📰
 - [[Technology]] 🖥️
 - [[Project]] 🤼
+- [[your-first-note]]
 
 <style>
   .wrapper {
