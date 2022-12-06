@@ -4,11 +4,11 @@ title: Home
 id: home
 permalink: /
 ---
-<div id="main-sector" style="border: solid black 1px; border-radius:1%;" >
+<div id="main-sector" style="background: #E8F3D6; border-radius:4px;">
 <div  width="1500em" height="500em" style="padding: 0em 1em;">
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
-<p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
+<p style="padding: 2em 1em; background: #FFDCA9; border-radius: 4px;">
   💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
   <br><br>
   👩‍🦯 Usability for all user, focus on end-user not only for technology
@@ -17,8 +17,8 @@ permalink: /
 </p>
 </div>
 
-<div>
-<img src="../assets/image.jpg" height="200em" width="200em" style="border-radius:50%; padding:2em 1em;">
+<div style="border-radius:50%; padding:2em 1em; background: FCF9BE; border-radius:4px;">
+<img src="../assets/image.jpg" height="200em" width="200em">
 <br><span style="font-size: x-small;">Majoring Software Engineering in South Korea</span><br>
 <span style="font-size: smaller;">Contact 📟. <strong>giananews@gmail.com</strong></span>
 </div>
