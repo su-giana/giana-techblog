@@ -4,7 +4,7 @@ title: Home
 id: home
 permalink: /
 ---
-
+<div id="main-sector">
 <div>
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
@@ -17,7 +17,8 @@ permalink: /
 </p>
 </div>
 
-<img src="../assets/image.jpg" height="50em" weight="30em">
+<img src="../assets/image.jpg" height="500em" weight="300em">
+</div>
 
 ### Tech. stack
 - django
@@ -37,5 +38,8 @@ permalink: /
 <style>
   .wrapper {
     max-width: 46em;
+  }
+  #main-sector{
+    display:flex;
   }
 </style>
