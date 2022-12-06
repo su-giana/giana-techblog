@@ -18,10 +18,10 @@ permalink: /
 </div>
 
 
-<div style="border-radius:50%; padding:1em 1em;">
+<div style="border-radius:4px; padding:1em 1em; background:white; background-clip: content-box;">
 <img src="../assets/image.jpg" height="200em" width="200em">
-<br><span style="font-size: x-small; background:white;">Majoring Software Engineering in South Korea</span><br>
-<span style="font-size: smaller; background:white;">Contact 📟. <strong>giananews@gmail.com</strong></span>
+<br><span style="font-size: x-small;">Majoring Software Engineering in South Korea</span><br>
+<span style="font-size: smaller;">Contact 📟. <strong>giananews@gmail.com</strong></span>
 </div>
 </div>
 
