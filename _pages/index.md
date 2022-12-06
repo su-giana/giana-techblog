@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
-<div  width="1500em" height="200em" style="padding: 2em 1em; background: #E8F3D6">
+<div  width="1500em" height="200em" background: #E8F3D6">
 <p style="padding: 2em 1em; border-radius: 4px;">
   💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
   <br><br>
