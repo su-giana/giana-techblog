@@ -5,7 +5,8 @@ id: home
 permalink: /
 ---
 
-# Hi! I'm a expandable Developer, Giana 🍀
+<div>
+<h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
 <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
   💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
@@ -14,6 +15,9 @@ permalink: /
   <br><br>
   🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
 </p>
+</div>
+
+<img src="../assets/image.jpg" height="50em" weight="30em">
 
 ### Tech. stack
 - django
