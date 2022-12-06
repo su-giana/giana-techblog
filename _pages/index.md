@@ -35,7 +35,7 @@ permalink: /
 - smart contract
 
 ### History
-- [[Article]]
+- [[Articles]]
 - [[Technology]]
 - [[Project]]
 
