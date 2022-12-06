@@ -17,7 +17,7 @@ permalink: /
 </p>
 </div>
 
-<img src="../assets/image.jpg" height="500em" weight="300em">
+<img src="../assets/image.jpg" height="400em" weight="200em">
 </div>
 
 ### Tech. stack
@@ -33,7 +33,6 @@ permalink: /
 ### History
 | Article | Tech | Project |
 | --- | --- | --- |
-|||
 
 <style>
   .wrapper {
