@@ -31,8 +31,8 @@ permalink: /
 - smart contract
 
 ### History
-| Article | Tech | Project |
-| --- | --- | --- |
+|Article|Tech|Project|
+|---|---|---|
 
 <style>
   .wrapper {
@@ -40,5 +40,6 @@ permalink: /
   }
   #main-sector{
     display:flex;
+    justify-contect: space between;
   }
 </style>
