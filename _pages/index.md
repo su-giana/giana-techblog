@@ -20,26 +20,12 @@ permalink: /
 <img src="../assets/image.jpg" height="250em" width="250em" style="border-radius:4px; margin: 0em 0em; padding-right:2em;">
 <div style="padding:1em 0em;">
 <span style="font-size: larger; padding: 2em 0em; color:#FAAB78;">Contact 📟. <br><strong style="font-size: x-larger; color: black;">giananews@gmail.com</strong></span>
-<br>
+<br><br>
 <span style="font-size: larger; padding: 2em 0em; color: #FAAB78;">Github 🫙.<br> <strong style="font-size: x-larger; color: black;">
 <a href="https://github.com/califonia-ahri/">Github Link</a>
 </strong></span>
 </div>
 </div>
-
-<hr>
-
-### Tech. stack
-BackEnd
-- ```django```
-- ```java```
-  - ```spring```
-  - ```JVM```
-  - ```gradle```
-- ```node.js```
-BlockChian
-- ```soldity```
-- ```smart contract```
 
 <hr>
 
@@ -49,8 +35,18 @@ BlockChian
 - [[Project]] 🤼
 - [[your-first-note]]
 
+<hr>
+
+### Tech. stack
+- BackEnd : ```Django```, ```Java```, ```Javascript```, ```node.js```, ```spring```
+- BlockChian : ```solidity```, ```smart contract```
+
+<hr>
+
+
+
 <style>
   .wrapper {
-    max-width: 46em;
+    max-width: 50em;
   }
 </style>
