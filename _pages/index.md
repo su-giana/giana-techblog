@@ -9,9 +9,9 @@ permalink: /
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
-  <br>
+  <br><br>
   👩‍🦯 Usability for all user, focus on end-user not only for technology
-  <br>
+  <br><br>
   🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
 </p>
 
@@ -27,8 +27,8 @@ permalink: /
 
 ### History
 |Article|Tech(theory centered)|Project|
-|-------|---------------------|--------|
-|[[Why I decided to start my career early]]|||
+|---|---|---|
+|Article page|Tech page|Project page|
 
 <style>
   .wrapper {
