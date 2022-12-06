@@ -18,7 +18,7 @@ permalink: /
 </div>
 
 <div style="padding: 2em 1em;">
-<img src="../assets/image.jpg" height="400em" weight="200em">
+<img src="../assets/image.jpg" height="200em" weight="200em" style="border-radius:50%">
 <br><span>Majoring Software Engineering in South Korea</span><br>
 <span>Contact. <strong>giananews@gmail.com</strong>📟</span>
 </div>
@@ -35,9 +35,9 @@ permalink: /
 - smart contract
 
 ### History
-- Article
-- Tech (theory centered)
-- Project
+- [[Article]]
+- [[Technology]]
+- [[Project]]
 
 <style>
   .wrapper {
