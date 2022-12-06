@@ -38,7 +38,7 @@ permalink: /
 <hr>
 
 ### Tech. stack
-- BackEnd : ```Django```, ```Java```, ```Javascript```, ```node.js```, ```spring```
+- BackEnd : ```Python```, ```Java```, ```Javascript```, ```node.js```, ```spring```, ```Django```
 - BlockChian : ```solidity```, ```smart contract```
 
 <hr>
