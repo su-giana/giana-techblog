@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 <div id="main-sector">
-<div  width="1200em" height="500em">
+<div  width="1500em" height="500em">
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
 <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
@@ -45,6 +45,6 @@ permalink: /
   }
   #main-sector{
     display:flex;
-    justify-contect: space between;
+    justify-content: space-between;
   }
 </style>
