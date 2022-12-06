@@ -17,13 +17,15 @@ permalink: /
 </p>
 </div>
 </div>
-<div style="padding:1em 1em; display:flex; align-content:flex-start;">
+
+<div style="padding:1em 0em; display:flex; align-items:flex-start;">
 <img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px;">
 <div>
-<span style="font-size: medium; padding: 0em 1em;">Contact 📟. <br><strong style="font-size: large;">giananews@gmail.com</strong></span>
+Contact 📟. <br>
+**giananews@gmail.com**
 <br>
 Github 🫙.<br>
-[github](https://github.com/califonia-ahri)
+**[github](https://github.com/califonia-ahri/)**
 </div>
 </div>
 
