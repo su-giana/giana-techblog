@@ -33,7 +33,7 @@ permalink: /
 ### History
 | Article | Tech | Project |
 | --- | --- | --- |
-|         |      |         |
+|||
 
 <style>
   .wrapper {
