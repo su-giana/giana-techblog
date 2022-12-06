@@ -26,9 +26,18 @@ permalink: /
 - smart contract
 
 ### History
-|Article|Tech(theory centered)|Project|
-|---|---|---|
-|Article page|Tech page|Project page|
+<table>
+  <th>
+    <td>Article</td>
+    <td>Tech (theory centered)</td>
+    <td>Project</td>
+  </th>
+  <tr>
+    <td>ArticlePage</td>
+    <td>Tech page</td>
+    <td>Project</td>
+  </tr>
+</table>
 
 <style>
   .wrapper {
