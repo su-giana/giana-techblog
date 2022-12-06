@@ -28,12 +28,14 @@ permalink: /
 <hr>
 
 ### Tech. stack
+BackEnd
 - ```django```
 - ```java```
   - ```spring```
   - ```JVM```
   - ```gradle```
 - ```node.js```
+BlockChian
 - ```soldity```
 - ```smart contract```
 
