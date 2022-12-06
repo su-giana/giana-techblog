@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 <div id="main-sector" style="background: #E8F3D6; border-radius:4px;">
-<div  width="1500em" height="500em" style="padding: 0em 1em;">
+<div  width="1500em" height="500em" style="padding: 2em 1em;">
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
 <p style="padding: 2em 1em; border-radius: 4px;">
@@ -17,12 +17,13 @@ permalink: /
 </p>
 </div>
 </div>
-<div style="border-radius:4px; padding:1em 1em; background:white; background-clip: content-box; display:flex; align-content:flex-start;">
-<img src="../assets/image.jpg" height="200em" width="200em">
+<div style="padding:1em 1em; display:flex; align-content:flex-start;">
+<img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px;">
 <div>
 <span style="font-size: medium; padding: 0em 1em;">Contact 📟. <br><strong style="font-size: large;">giananews@gmail.com</strong></span>
 <br>
-<span style="font-size: medium; padding: 0em 1em;">Github .<br> <strong style="font-size: large;">[github](https://github.com/califonia-ahri)</strong></span>
+Github 🫙.<br>
+[github](https://github.com/califonia-ahri)
 </div>
 </div>
 
