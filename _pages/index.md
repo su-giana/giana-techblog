@@ -43,8 +43,6 @@ permalink: /
 
 <hr>
 
-
-
 <style>
   .wrapper {
     max-width: 50em;
