@@ -26,9 +26,7 @@ permalink: /
 - smart contract
 
 ### History
-| Article | Tech | Project |
-|---------|------|---------|
-|         |      |         |
+| Article | Tech | Project | |---|---|---| |         |      |         |
 
 <style>
   .wrapper {
