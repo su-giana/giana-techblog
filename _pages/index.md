@@ -17,7 +17,7 @@ permalink: /
 </p>
 </div>
 
-<div style="border-radius:50%; padding:2em 1em; background: FCF9BE; border-radius:4px;">
+<div style="border-radius:50%; padding:2em 1em; background:white; border-radius:4px;">
 <img src="../assets/image.jpg" height="200em" width="200em">
 <br><span style="font-size: x-small;">Majoring Software Engineering in South Korea</span><br>
 <span style="font-size: smaller;">Contact 📟. <strong>giananews@gmail.com</strong></span>
