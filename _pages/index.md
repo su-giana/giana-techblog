@@ -4,8 +4,7 @@ title: Home
 id: home
 permalink: /
 ---
-<div id="main-sector" style="background: #E8F3D6; border-radius:4px;">
-<div  width="1500em" height="300em" style="padding: 2em 1em;">
+<div  width="1500em" height="200em" style="padding: 2em 1em; background: #E8F3D6">
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
 
 <p style="padding: 2em 1em; border-radius: 4px;">
@@ -16,9 +15,9 @@ permalink: /
   🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
 </p>
 </div>
-</div>
+
 <div style="padding:1em 1em; display:flex; justify-content:flex-start;">
-<img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px;">
+<img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px; contain-intrinsic-width: none;">
 <div style="padding:1em 0em;">
 <span style="font-size: medium; padding: 0em 1em;">Contact 📟. <br><strong style="font-size: large;">giananews@gmail.com</strong></span>
 <br>
@@ -53,9 +52,5 @@ BlockChian
 <style>
   .wrapper {
     max-width: 46em;
-  }
-  #main-sector{
-    display:flex;
-    justify-content: space-between;
   }
 </style>
