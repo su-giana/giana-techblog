@@ -17,7 +17,7 @@ permalink: /
 </p>
 </div>
 
-<img src="../assets/image.jpg" height="400em" weight="200em">
+<img src="../assets/image.jpg" height="400em" weight="200em" style="padding: 2em 4em;">
 </div>
 
 ### Tech. stack
