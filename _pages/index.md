@@ -5,15 +5,30 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# Hi! I'm a expandable Developer, Giana 🍀
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
+  <br>
+  👩‍🦯 Usability for all user, focus on end-user not only for technology
+  <br>
+  🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+### Tech. stack
+- django
+- java
+  - spring
+  - JVM
+  - gradle
+- node.js
+- soldity
+- smart contract
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+### History
+|Article|Tech(theory centered)|Project|
+|-------|---------------------|--------|
+|[[Why I decided to start my career early]]|||
 
 <style>
   .wrapper {

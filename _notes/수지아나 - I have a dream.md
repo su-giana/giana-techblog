@@ -25,5 +25,4 @@ title: "korean-main"
 
 --------
 ##### English version
-[English version](https://sugiana-tech-blog.netlify.app/)
-
+[[suGiana - I have a dream]]
