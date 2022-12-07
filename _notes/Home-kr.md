@@ -28,10 +28,9 @@ title: Home-Korean
 <hr>
 
 ### History
-- [[Articles]] 📰
-- [[Technology]] 🖥️
-- [[Project]] 🤼
-- [[your-first-note]]
+- [[사설]] 📰
+- [[기술이론]] 🖥️
+- [[개발 결과물]] 🤼
 
 <hr>
 
