@@ -32,6 +32,7 @@ permalink: /
 - [[Articles]] 📰
 - [[Technology]] 🖥️
 - [[Project]] 🤼
+- [[your-first-note]]
 
 <hr>
 
