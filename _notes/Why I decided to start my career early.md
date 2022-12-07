@@ -1,4 +1,4 @@
 ---
 dg-publish: true;
-title: "why-I-decided-to-start-my-career-early-korean"
+title: "why-I-decided-to-start-my-career-early"
 ---

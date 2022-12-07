@@ -1,3 +1,3 @@
 ---
-title: "tech-list"
+title: "Technology"
 ---
