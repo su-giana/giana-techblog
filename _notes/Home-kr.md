@@ -1,18 +1,17 @@
 ---
 layout: page
-title: Home
-id: home
+title: Home-Korean
 permalink: /
 ---
 
-<h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
+<h1>안녕하세요! 같이 일하고 싶은 개발자 지아나입니다🍀</h1>
 <div  width="1500em" height="200em" style="background: #E8F3D6">
 <p style="padding: 2em 1em; border-radius: 4px;">
-  💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
+  💰 핀테크, 블록체인에 관심이 많은 <span style="font-weight: bold">주니어 백엔드 개발자</span>.
   <br><br>
-  👩‍🦯 Usability for all user, focus on end-user not only for technology
+  👩‍🦯 기술에만 매몰되지 않고 엔드 유저를 생각하는 개발을 지향합니다.
   <br><br>
-  🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
+  🗣 팀원들과의 효과적인 의사소통에 집중, 업무 자동화를 통한 효율적인 개발 과정을 중시합니다.
 </p>
 </div>
 
