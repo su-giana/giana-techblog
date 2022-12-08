@@ -82,7 +82,7 @@ a {
   color: $color-primary;
   &:hover img{
     transition: all 300ms ease-in-out;
-    transform:scale(1.05);
+    transform: translate(10px, 0px);
     box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
   }
   &:hover div h1
