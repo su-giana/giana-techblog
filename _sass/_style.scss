@@ -89,7 +89,6 @@ a {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
-    content: "↗";
     color: #aaaaaa;
   }
   &.internal-link:after,
@@ -99,10 +98,10 @@ a {
   }
 }
 
-*:focus {
+/* *:focus {
   background: #ffe8bc !important;
   color: black !important;
-}
+} */
 
 nav {
   margin: 1em 0 3em;
