@@ -80,7 +80,7 @@ a {
   padding: 0 0.1em;
   text-decoration: none;
   color: $color-primary;
-  &:hover {
+  &:hover img{
     transform:scale(1.05);
     box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
   }
