@@ -1,8 +1,5 @@
 ---
-layout: page
 title: Home
-id: home
-permalink: /
 ---
 
 <h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
