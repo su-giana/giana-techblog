@@ -30,6 +30,8 @@ title: Home
 - [[Articles]] 📰
 - [[Technology]] 🖥️
 - [[Project]] 🤼
+- [[epilogue]] 📙
+- [[economy]] 💵
 
 <hr>
 
