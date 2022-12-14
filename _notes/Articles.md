@@ -33,8 +33,14 @@ title: "Articles"
         main.appendChild(obj);
     }
 
-    add_posting('한경비즈니스-1405호' , 'hk1405.jpeg', '한경비즈니스 - 1405 정리 및 후기', 
-    '한경 비즈니스 1405 "레고랜드의 비극"편의 독후감입니다. 레고랜드의 비극 이외에도 국내에 진출하는 명품 시장과 이를 이용한 마케팅 수법에 관심이 갔습니다.');
+    add_posting('Why-I-decided-to-start-my-career-early' , 'interview.jpg', 'Why I decided to start my career early', 
+    'This post contains content about why I chose to plan my career right after I graduate university. In process, I made my own standard in hiring process.');
+    add_posting('nightmare-of-human-resource-managements-:-developers', "manpower.jpg", "Nightmare of human resource managements - developers",
+    "I thoughfully lookback my old friend's saying, why you developer guys keep quiting own job, even company providing various merits to you out of their ass. What developer ultimately wants? I disolved my thought in this post.")
+    add_posting('Why-I-chose-to-be-backend-developer', "select.jpeg", "Why I chose to be backend developer",
+    "Before I jump to job market, I organized my story of my journey to decide to be a backend developer.")
+    add_posting('How-end-users-dealing-with-fintech', "customer.jpg", "How end users dealing with fintech",
+    "Based on customer's sight, I tore apart how fintech leading market in my words.")
 </script>
     
 
