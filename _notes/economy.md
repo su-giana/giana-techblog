@@ -33,7 +33,7 @@ title: economy
         main.appendChild(obj);
     }
 
-    add_posting('Korean-Economy-magazine-1405th' , 'hk1405.jpeg', 'Korean Economy magazine 1405th - summary', 
+    add_posting('Korea-Economy-magazine-1405th' , 'hk1405.jpeg', 'Korea Economy magazine 1405th - summary', 
     'lookback after reading Hankyeong 1405th, tragedy of lego land.');
 </script>
     
