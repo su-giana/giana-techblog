@@ -33,6 +33,8 @@ permalink: /
 - [[Articles]] 📰
 - [[Technology]] 🖥️
 - [[Project]] 🤼
+- [[epilogue]] 📙
+- [[economy]] 💵
 
 <hr>
 
