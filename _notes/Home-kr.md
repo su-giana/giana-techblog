@@ -3,7 +3,7 @@ layout: page
 title: Home-Korean
 ---
 
-<h1>안녕하세요! 같이 일하고 싶은 개발자 지아나입니다🍀</h1>
+<h1>안녕하세요! 전남대에서 소프트웨어공학과를 졸업하고 첫 직장을 구하고 있는 개발자 지아나입니다🍀</h1>
 <div  width="1500vw" height="200vh" style="background: #E8F3D6">
 <p style="padding: 2vw 1vh; border-radius: 4px;">
   💰 핀테크, 블록체인에 관심이 많은 <span style="font-weight: bold">주니어 백엔드 개발자</span>.
