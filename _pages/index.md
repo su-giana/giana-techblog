@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-<h1>Hi! I'm a expandable Developer, Giana 🍀</h1>
+<h1>Hi! I'm a backend developer studied in Korean, Giana 🍀</h1>
 <div  width="1500vw" height="200vh" style="background: #E8F3D6">
 <p style="padding: 2vw 1vh; border-radius: 4px;">
   💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
