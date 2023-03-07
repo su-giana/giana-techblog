@@ -31,6 +31,7 @@ title: Home
 - [[Technology]] 🖥️
 - [[Project]] 🤼
 - [[epilogue]] 📙
+- [[AI]] 🦾
 - [[economy]] 💵
 
 <hr>
