@@ -9,8 +9,9 @@ title: "Computer Basics"
     {
         let main = document.getElementById('sections');
 
+        let body = document.createElement('div');
         let obj = document.createElement('a');
-        obj.setAttribute('class', 'section');
+        body.setAttribute('class', 'section');
         let url_ = "https://giana-blog.netlify.app/" + url + "/";
         obj.setAttribute('href', url_);
 
@@ -24,7 +25,8 @@ title: "Computer Basics"
         h2.innerText = title;
         obj.appendChild(h2);
 
-        main.appendChild(obj);
+        body.appendChild(obj);
+        main.appendChild(body);
     }
     add_section("computer-structure", "argb.png", "Computer Structure");
     add_section("ubuntu", "argb.png", "Ubuntu");
@@ -49,6 +51,35 @@ title: "Computer Basics"
         display: grid;
         place-items: center normal;
         padding: 2vw 0vw;
+
+        padding: 0 0.1em;
+  text-decoration: none;
+  color: $color-primary;
+  transition: all 300ms linear;
+
+  &:hover {
+    transition: all 300ms linear;
+    transform: translate(0px, -10px);
+    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+  }
+  &:hover h1
+  {
+    transition: all 300ms linear;
+    color: #faab78;
+  }
+
+  &:after {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.7em;
+    content: "↗";
+    color: #aaaaaa;
+  }
+  &.internal-link:after,
+  &.footnote:after,
+  &.reversefootnote:after {
+    content: "";
+  }
     }
     .sections
     {
