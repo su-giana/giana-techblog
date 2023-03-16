@@ -52,15 +52,14 @@ title: "Computer Basics"
     }
     .sections
     {
-        display: flex;
+        display: grid;
         justify-content: flex-start;
         margin: 4.5vw 5vw;
     }
     .secimg
     {
-        display: inline-block;
         width: 16vw;
-        height: 16vw;
+        height: 13vw;
         border-radius: 10px;
         margin: 0em 0em;
         margin-right: 3vw;
@@ -70,6 +69,8 @@ title: "Computer Basics"
     {
         font-size: 2.5vw;
         margin-top:0em;
+        height:3vw;
+        width:16vw;
     }
 </style>
 
