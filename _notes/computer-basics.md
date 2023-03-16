@@ -51,59 +51,60 @@ title: "Computer Basics"
     display: grid;
     place-items: center normal;
     padding: 2vw 0vw;
+    margin-right: 0vw;
     width: 16vw;
     transition: all 300ms linear;
 
-    &:hover {
+    &:hover h2
+    {
         transition: all 300ms linear;
-        transform: translate(0px, -10px);
-        box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+        color: #faab78;
     }
-  &:hover h2
-  {
-    transition: all 300ms linear;
-    color: #faab78;
-  }
 
-  &:after {
+    &:after {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
     color: #aaaaaa;
-  }
-  &.internal-link:after,
-  &.footnote:after,
-  &.reversefootnote:after {
-    content: "";
-  }
+    }
+    &.internal-link:after,
+    &.footnote:after,
+    &.reversefootnote:after {
+        content: "";
+    }
 }
+.section:hover {
+        transition: all 300ms linear;
+        transform: translate(0px, -10px);
+        box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+    }
 
-    .sections
-    {
-        display: flex;
-        margin: 4.5vw 0vw;
-    }
-    .secimg
-    {
-        width: 16vw;
-        height: 13vw;
-        border-radius: 10px;
-        margin: 0em 0em;
-        margin-right: 3vw;
-        vertical-align: middle;
-    }
-    h1
-    {
-        font-size: 2.5vw;
-        margin-top:0em;
+.sections
+{
+    display: flex;
+    margin: 4.5vw 0vw;
+}
+.secimg
+{
+    width: 16vw;
+    height: 13vw;
+    border-radius: 10px;
+    margin: 0em 0em;
+    margin-right: 3vw;
+    vertical-align: middle;
+}
+h1
+{
+    font-size: 2.5vw;
+    margin-top:0em;
 
-    }
-    h2
-    {
-        height:3vw;
-        width:16vw;
-    }
+}
+h2
+{
+    height:3vw;
+    width:16vw;
+}
 </style>
 
 
