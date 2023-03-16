@@ -53,7 +53,6 @@ title: "Computer Basics"
     .sections
     {
         display: flex;
-        justify-content: flex-start;
         margin: 4.5vw 5vw;
     }
     .secimg
