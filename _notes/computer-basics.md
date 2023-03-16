@@ -19,10 +19,10 @@ title: "Computer Basics"
         preimage.setAttribute('src', "https://giana-blog.netlify.app/assets/"+image);
         obj.appendChild(preimage);
 
-        let h1 = document.createElement('h1');
-        h1.setAttribute('class', "sec-title");
-        h1.innerText = title;
-        obj.appendChild(h1);
+        let h2 = document.createElement('h2');
+        h2.setAttribute('class', "sec-title");
+        h2.innerText = title;
+        obj.appendChild(h2);
 
         main.appendChild(obj);
     }
@@ -69,6 +69,10 @@ title: "Computer Basics"
     {
         font-size: 2.5vw;
         margin-top:0em;
+
+    }
+    h2
+    {
         height:3vw;
         width:16vw;
     }
