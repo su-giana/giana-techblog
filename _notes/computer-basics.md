@@ -46,13 +46,13 @@ title: "Computer Basics"
 <style>
     .section
     {
-        display:flex;
+        display: grid;
         place-items: center normal;
         padding: 2vw 0vw;
     }
     .sections
     {
-        display: grid;
+        display: block;
         justify-content: flex-start;
         margin: 4.5vw 5vw;
     }
