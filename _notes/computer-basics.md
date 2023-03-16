@@ -46,20 +46,19 @@ title: "Computer Basics"
 
 
 <style>
-    .section
-    {
-        display: grid;
-        place-items: center normal;
-        padding: 2vw 0vw;
-        width: 16vw;
-
-  transition: all 300ms linear;
-
-  &:hover {
+.section
+{
+    display: grid;
+    place-items: center normal;
+    padding: 2vw 0vw;
+    width: 16vw;
     transition: all 300ms linear;
-    transform: translate(0px, -10px);
-    box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
-  }
+
+    &:hover {
+        transition: all 300ms linear;
+        transform: translate(0px, -10px);
+        box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+    }
   &:hover h2
   {
     transition: all 300ms linear;
@@ -83,7 +82,7 @@ title: "Computer Basics"
     .sections
     {
         display: flex;
-        margin: 4.5vw 5vw;
+        margin: 4.5vw 0vw;
     }
     .secimg
     {
