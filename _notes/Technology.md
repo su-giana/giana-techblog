@@ -32,11 +32,11 @@ title: "Technology"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-
-    add_posting('Secure-coding-with-Django-trouble-shooting' , 'django.png', 'Secure coding with Django trouble shooting', 
-    'trouble shooting process of eye tracking education platform in "2022 Software secure coding development contest"');
 </script>
     
+# Section.
+- [[ai]] 🦾
+- [[computer-basics]] 💀
 
 
 <style>

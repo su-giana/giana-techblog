@@ -1,5 +1,5 @@
 ---
-title: 회고록
+title: "Computer Basics"
 ---
 
 <div id="postings"></div>
@@ -32,17 +32,13 @@ title: 회고록
         obj.appendChild(div);
         main.appendChild(obj);
     }
-
-    add_posting('kakaodev2022-회고록' , 'kakaodev2022.webp', 'if(kakao)dev 2022 - 회고', 
-    '2022년 대규모 서버 장애 이후 처음 열린 카카오 개발 컨퍼런스에 참여한 회고록을 작성했습니다. 카카오뱅크의 세션에 주목했습니다.');
-    add_posting('Tech-Verse-2022-회고록' , 'tech-verse.png', 'Tech-Verse 2022 - 회고', 
-    'Yahoo와 Line의 공동 컨퍼런스인 Tech-Verse를 보고 회고록을 작성했습니다. 블록체인과 Line Pay 위주로 정리했습니다.');
-    add_posting('정보보호-동아리-연합-KUCIS-호남권역-대표-후기' , 'kucis.jpeg', '정보보호 동아리 연합 KUCIS - 호남권역 대표 후기', 
-    '정보보호 동아리 연합 KUCIS의 호남 권역 대표가 끝나고 프로젝트의 홍보와 체계의 중요성에 대해 깊게 생각해보았습니다.');
-    add_posting('2022년-회고' , '2022.jpg', '2022년을 회고하며', 
-    '지나간 2022년을 회고하는 시간을 가졌습니다.');
 </script>
     
+# Section.
+- [[computer-structure]] 🧱
+- [[ubuntu]] 🐒
+- [[docker]] 🐋
+- [[algorithm]] ➗
 
 
 <style>
@@ -79,3 +75,5 @@ title: 회고록
         margin-top:0em;
     }
 </style>
+
+
