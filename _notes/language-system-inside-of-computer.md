@@ -19,6 +19,7 @@ In fixed-point expression, nth bit left to point means 2^(1/2^n). For instance, 
 This way consumes too much memory cost to represent all data.
 ### Floating-point (IEEE)
 <img src="../assets/float-point.jpeg">
+
 $N = (-1)^s * M * 2^E$
 
 ## Other way of numbering system
@@ -29,7 +30,7 @@ $N = (-1)^s * M * 2^E$
 ## Name of bit group
 
 |Name|the number of bit|
-|---|---|
+|:---:|:---:|
 |nibble|4|
 |byte|8|
 |half word|16|
@@ -60,5 +61,5 @@ Expression = "=" + "hexadecimal number" + "hexadecimal number"
 ### RGBalpha
 <img src="../assets/argb.png">
 
-##### alpha = transparent
+-  alpha = transparent
 - encoding : hex triplet
