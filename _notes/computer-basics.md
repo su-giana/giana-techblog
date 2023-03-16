@@ -51,8 +51,7 @@ title: "Computer Basics"
         display: grid;
         place-items: center normal;
         padding: 2vw 0vw;
-
-        padding: 0 0.1em;
+        width: 16vw;
 
   transition: all 300ms linear;
 
@@ -79,7 +78,8 @@ title: "Computer Basics"
   &.reversefootnote:after {
     content: "";
   }
-    }
+}
+
     .sections
     {
         display: flex;
