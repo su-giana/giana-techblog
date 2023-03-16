@@ -25,7 +25,7 @@ title: "Computer Structure"
         h1.setAttribute('class', "post-title");
         h1.innerText = title;
         div.appendChild(h1);
-z
+
         let span = document.createElement('span');
         span.innerText = des;
         div.appendChild(span);
