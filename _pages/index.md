@@ -5,10 +5,10 @@ id: home
 permalink: /
 ---
 
-<h1>Hi! I'm a backend developer studied in Korean, Giana 🍀</h1>
+<h1>Hi! I'm a developer studied in Korean, Giana 🍀</h1>
 <div  width="1500vw" height="200vh" style="background: #E8F3D6">
 <p style="padding: 2vw 1vh; border-radius: 4px;">
-  💰 Plus, <span style="font-weight: bold">Junior Backend Developer</span> interested in fintech and blockchain.
+  💰 Plus, <span style="font-weight: bold">Junior Developer</span> interested in fintech and blockchain.
   <br><br>
   👩‍🦯 Usability for all user, focus on end-user not only for technology
   <br><br>
@@ -39,8 +39,7 @@ permalink: /
 <hr>
 
 ### Tech. stack
-- BackEnd : ```Python```, ```Java```, ```Javascript```, ```node.js```, ```spring```, ```Django```
-- BlockChian : ```solidity```, ```smart contract```
+- Computer basics : ```Computer Structure```, ```Algorithm```, ```Ubuntu Linux```, ```Docker```
 
 <hr>
 
