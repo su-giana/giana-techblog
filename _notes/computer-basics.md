@@ -37,8 +37,11 @@ title: "Computer Basics"
 # Section.
 
 - [[computer-structure]] 🧱
+
 - [[ubuntu]] 🐒
+
 - [[docker]] 🐋
+
 - [[algorithm]] ➗
 
 
