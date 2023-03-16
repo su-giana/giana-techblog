@@ -11,7 +11,7 @@ title: "Computer Basics"
 
         let body = document.createElement('div');
         let obj = document.createElement('a');
-        body.setAttribute('class', 'section');
+        obj.setAttribute('class', 'section');
         let url_ = "https://giana-blog.netlify.app/" + url + "/";
         obj.setAttribute('href', url_);
 
@@ -53,8 +53,7 @@ title: "Computer Basics"
         padding: 2vw 0vw;
 
         padding: 0 0.1em;
-  text-decoration: none;
-  color: $color-primary;
+
   transition: all 300ms linear;
 
   &:hover {
@@ -62,7 +61,7 @@ title: "Computer Basics"
     transform: translate(0px, -10px);
     box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
   }
-  &:hover h1
+  &:hover h2
   {
     transition: all 300ms linear;
     color: #faab78;
