@@ -19,7 +19,6 @@ title: "Computer Basics"
         preimage.setAttribute('src', "https://giana-blog.netlify.app/assets/"+image);
         obj.appendChild(preimage);
 
-        div.setAttribute('class', 'sec-body');
         let h1 = document.createElement('h1');
         h1.setAttribute('class', "sec-title");
         h1.innerText = title;
@@ -28,6 +27,9 @@ title: "Computer Basics"
         main.appendChild(obj);
     }
     add_section("computer-structure", "argb.png", "Computer Structure");
+    add_section("ubuntu", "argb.png", "Ubuntu");
+    add_section("docker", "argb.png", "Docker");
+    add_section("algorithm", "argb.png", "Algorithm");
 </script>
     
 # Section.
@@ -42,13 +44,13 @@ title: "Computer Basics"
 
 
 <style>
-    .sec-body
+    .section
     {
         display:flex;
         place-items: center normal;
         padding: 2vw 0vw;
     }
-    .section
+    .sections
     {
         display: flex;
         justify-content: flex-start;
