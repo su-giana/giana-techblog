@@ -20,9 +20,7 @@ This way consumes too much memory cost to represent all data.
 ### Floating-point (IEEE)
 <img src="../assets/float-point.jpeg">
 
-$$
-N = (-1)^s * M * 2^E
-$$
+<img src="https://latex.codecogs.com/svg.image?N&space;=&space;(-1)^s&space;*&space;M&space;*&space;2^E" title="https://latex.codecogs.com/svg.image?N = (-1)^s * M * 2^E" />
 
 ## Other way of numbering system
 - BCD (Binary-coded decimal)
