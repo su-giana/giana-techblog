@@ -5,7 +5,7 @@ title: "Computer Basics"
 <div id="sections"></div>
 
 <script>
-    function add_section(url, image, title, des)
+    function add_section(url, image, title)
     {
         let main = document.getElementById('sections');
 
@@ -23,12 +23,11 @@ title: "Computer Basics"
         let h1 = document.createElement('h1');
         h1.setAttribute('class', "sec-title");
         h1.innerText = title;
-        div.appendChild(h1);
+        obj.appendChild(h1);
 
-        obj.appendChild(div);
         main.appendChild(obj);
     }
-
+    add_section("computer-structure", "argb.png", "Computer Structure");
 </script>
     
 # Section.
