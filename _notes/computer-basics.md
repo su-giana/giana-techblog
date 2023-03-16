@@ -2,12 +2,12 @@
 title: "Computer Basics"
 ---
 
-<div id="postings"></div>
+<div id="sections"></div>
 
 <script>
-    function add_posting(url, image, title, des)
+    function add_section(url, image, title, des)
     {
-        let main = document.getElementById('postings');
+        let main = document.getElementById('sections');
 
         let obj = document.createElement('a');
         obj.setAttribute('class', 'posting');

@@ -1,5 +1,5 @@
 ---
-title: "Computer Basics"
+title: "Computer Structure"
 ---
 
 <div id="postings"></div>
@@ -25,7 +25,7 @@ title: "Computer Basics"
         h1.setAttribute('class', "post-title");
         h1.innerText = title;
         div.appendChild(h1);
-
+z
         let span = document.createElement('span');
         span.innerText = des;
         div.appendChild(span);
