@@ -93,7 +93,7 @@ h1
     margin-top:0em;
 
 }
-h2
+.sec-title
 {
     height:3vw;
     width:16vw;
