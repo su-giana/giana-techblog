@@ -44,7 +44,7 @@ title: "Computer Basics"
     display: grid;
     place-items: center normal;
     padding: 2vw 2vw;
-    margin: 0vw;
+    margin: 0vw 0vw 0vw 0vw;
     width: 16vw;
     transition: all 300ms linear;
 
