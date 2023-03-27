@@ -75,7 +75,7 @@ title: "Computer Basics"
 
 .sections
 {
-    display: grid;
+    display: flex;
     margin: 4.5vw 0vw;
 }
 .secimg
