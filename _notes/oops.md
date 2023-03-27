@@ -1,6 +1,38 @@
 ---
-title: "Computer Structure"
+title: "Overview of Problem Sovling"
 ---
+
+## Process of Problem Sovling
+
+- Step 1: Read a problem and understand its conditions and rules inside of it. 
+
+- Step 2: Redifinition and Abstraction
+
+- Step 3: Planning
+
+- Step 4: Verifying the plan
+    - whether this algorithm correctly covers the whole requirements or not
+    - whether this algorithm meets time complexity and space complexity or not
+
+- Step 5: Carry out a plan(Implementation)
+
+- Step 6: Retrospecting
+
+<hr>
+
+## Strategy for solving problem
+### Questions for systematic approach
+- Have I ever solved similar problem?
+- Could I start from simple way?
+- Could I make a mathematical expression with the strategy of solving problem?
+- Could I simplify the process?
+- Could I draw a figure of this process?
+- Could I divide the problem?
+- Could I solve this problem from back to front?
+- Could I force the sequence of process?
+- Could I use canonicalization?
+
+
 
 <div id="postings"></div>
 
@@ -33,7 +65,6 @@ title: "Computer Structure"
         main.appendChild(obj);
     }
 
-    add_posting('language-system-inside-of-computer', 'binary.png', 'Language system inside of computer', 'This chapter explained language system inside of computer such as bit with binary format, boolean algebra');
 </script>
 
 <style>
