@@ -56,8 +56,8 @@ title: "Computer Basics"
     .preimg
     {
         display: inline-block;
-        width: 16vw;
-        height: 16vw;
+        width: 12vw;
+        height: 12vw;
         border-radius: 10px;
         margin: 0em 0em;
         margin-right: 3vw;
@@ -66,11 +66,11 @@ title: "Computer Basics"
     span
     {
         display: block;
-        font-size: 1.5vw;
+        font-size: 0.5vw;
     }
     h1
     {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         margin-top:0em;
     }
 </style>
