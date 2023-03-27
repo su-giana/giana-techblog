@@ -51,7 +51,7 @@ title: "Computer Basics"
     {
         display: flex;
         justify-content: flex-start;
-        margin: 2.5vw 3vw;
+        margin: 3vw 3vw;
     }
     .preimg
     {
