@@ -66,11 +66,11 @@ title: "Computer Basics"
     span
     {
         display: block;
-        font-size: 0.5vw;
+        font-size: 1vw;
     }
     h1
     {
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin-top:0em;
     }
 </style>
