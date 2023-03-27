@@ -4,100 +4,76 @@ title: "Computer Basics"
 
 <h1>Section.</h1>
 
-<div id="sections"></div>
+<div id="postings"></div>
 
 <script>
-    function add_section(url, image, title)
+    function add_posting(url, image, title, des)
     {
-        let main = document.getElementById('sections');
+        let main = document.getElementById('postings');
 
-        let body = document.createElement('div');
         let obj = document.createElement('a');
-        obj.setAttribute('class', 'section');
+        obj.setAttribute('class', 'posting');
         let url_ = "https://giana-blog.netlify.app/" + url + "/";
         obj.setAttribute('href', url_);
 
+        let div = document.createElement('div');
         let preimage = document.createElement('img');
-        preimage.setAttribute('class', 'secimg');
+        preimage.setAttribute('class', 'preimg');
         preimage.setAttribute('src', "https://giana-blog.netlify.app/assets/"+image);
         obj.appendChild(preimage);
 
-        let h2 = document.createElement('h2');
-        h2.setAttribute('class', "sec-title");
-        h2.innerText = title;
-        obj.appendChild(h2);
+        div.setAttribute('class', 'post-body');
+        let h1 = document.createElement('h1');
+        h1.setAttribute('class', "post-title");
+        h1.innerText = title;
+        div.appendChild(h1);
 
-        body.appendChild(obj);
-        main.appendChild(body);
+        let span = document.createElement('span');
+        span.innerText = des;
+        div.appendChild(span);
+        obj.appendChild(div);
+        main.appendChild(obj);
     }
-    add_section("computer-structure", "argb.png", "Computer Structure");
-    add_section("ubuntu", "argb.png", "Ubuntu");
-    add_section("docker", "argb.png", "Docker");
-    add_section("algorithm", "argb.png", "Algorithm");
+    add_posting("computer-structure", "argb.png", "Computer Structure", "Computer Structure and Operating System");
+    add_posting("ubuntu", "argb.png", "Ubuntu", "Ubuntu for server of AI");
+    add_posting("docker", "argb.png", "Docker", "Virtualization for everything");
+    add_posting("algorithm", "argb.png", "Algorithm", "Algorithm for designing effective system");
 </script>
-    
-
 
 <style>
-.section
-{
-    display: grid;
-    place-items: center normal;
-    padding: 2vw 2vw;
-    margin: 0vw 0vw 0vw 0vw;
-    width: 16vw;
-    transition: all 300ms linear;
-
-    &:hover h2
+    .post-body
     {
-        transition: all 300ms linear;
-        color: #faab78;
+        display:grid;
+        place-items: center normal;
+        padding: 2vw 0vw;
     }
-
-    &:after {
-    position: relative;
-    top: -0.5em;
-    font-size: 0.7em;
-    content: "↗";
-    color: #aaaaaa;
+    .posting
+    {
+        display: flex;
+        justify-content: flex-start;
+        margin: 4.5vw 5vw;
     }
-    &.internal-link:after,
-    &.footnote:after,
-    &.reversefootnote:after {
-        content: "";
+    .preimg
+    {
+        display: inline-block;
+        width: 16vw;
+        height: 16vw;
+        border-radius: 10px;
+        margin: 0em 0em;
+        margin-right: 3vw;
+        vertical-align: middle;
     }
-}
-.section:hover {
-        transition: all 300ms linear;
-        transform: translate(0px, -10px);
-        box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1);
+    span
+    {
+        display: block;
+        font-size: 1.5vw;
     }
-
-.sections
-{
-    display: flex;
-    margin: 4.5vw 0vw;
-}
-.secimg
-{
-    width: 16vw;
-    height: 13vw;
-    border-radius: 10px;
-    margin: 0em 0em;
-    margin-right: 3vw;
-    vertical-align: middle;
-}
-h1
-{
-    font-size: 2.5vw;
-    margin-top:0em;
-
-}
-.sec-title
-{
-    height:3vw;
-    width:16vw;
-}
+    h1
+    {
+        font-size: 2.5vw;
+        margin-top:0em;
+    }
 </style>
+
 
 
