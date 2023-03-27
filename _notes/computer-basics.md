@@ -2,7 +2,9 @@
 title: "Computer Basics"
 ---
 
+<h1>Section.</h1>
 
+<div id="sections"></div>
 
 <script>
     function add_section(url, image, title)
@@ -34,9 +36,7 @@ title: "Computer Basics"
     add_section("algorithm", "argb.png", "Algorithm");
 </script>
     
-<h1>Section.</h1>
 
-<div id="sections"></div>
 
 <style>
 .section
