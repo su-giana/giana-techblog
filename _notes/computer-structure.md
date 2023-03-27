@@ -1,6 +1,7 @@
 ---
 title: "Computer Structure"
 ---
+from [[computer-basics]]
 
 <div id="postings"></div>
 

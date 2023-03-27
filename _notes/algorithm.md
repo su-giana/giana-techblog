@@ -1,6 +1,7 @@
 ---
 title: "Algorithm"
 ---
+from [[computer-basics]]
 
 <div id="postings"></div>
 

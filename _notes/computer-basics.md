@@ -1,6 +1,7 @@
 ---
 title: "Computer Basics"
 ---
+from [[technology]]
 
 <h1>Section.</h1>
 

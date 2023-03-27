@@ -1,6 +1,7 @@
 ---
 title: "Overview of Problem Sovling"
 ---
+from [[algorithm]]
 
 ## Process of Problem Sovling
 
@@ -23,13 +24,21 @@ title: "Overview of Problem Sovling"
 ## Strategy for solving problem
 ### Questions for systematic approach
 - Have I ever solved similar problem?
+
 - Could I start from simple way?
+
 - Could I make a mathematical expression with the strategy of solving problem?
+
 - Could I simplify the process?
+
 - Could I draw a figure of this process?
+
 - Could I divide the problem?
+
 - Could I solve this problem from back to front?
+
 - Could I force the sequence of process?
+
 - Could I use canonicalization?
 
 
