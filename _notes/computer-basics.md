@@ -56,8 +56,8 @@ title: "Computer Basics"
     .preimg
     {
         display: inline-block;
-        width: 12vw;
-        height: 12vw;
+        width: 10vw;
+        height: 10vw;
         border-radius: 10px;
         margin: 0em 0em;
         margin-right: 3vw;
