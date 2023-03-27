@@ -34,10 +34,10 @@ title: "Computer Basics"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("computer-structure", "argb.png", "Computer Structure", "Computer Structure and Operating System");
-    add_posting("ubuntu", "argb.png", "Ubuntu", "Ubuntu for server of AI");
-    add_posting("docker", "argb.png", "Docker", "Virtualization for everything");
-    add_posting("algorithm", "argb.png", "Algorithm", "Algorithm for designing effective system");
+    add_posting("computer-structure", "inside_computer.png", "Computer Structure", "Computer Structure and Operating System");
+    add_posting("ubuntu", "ubuntu.png", "Ubuntu", "Ubuntu for server of AI");
+    add_posting("docker", "docker.png", "Docker", "Virtualization for everything");
+    add_posting("algorithm", "algorithm.png", "Algorithm", "Algorithm for designing effective system");
 </script>
 
 <style>
