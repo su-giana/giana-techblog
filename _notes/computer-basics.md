@@ -2,7 +2,7 @@
 title: "Computer Basics"
 ---
 
-<div id="sections"></div>
+
 
 <script>
     function add_section(url, image, title)
@@ -36,14 +36,7 @@ title: "Computer Basics"
     
 # Section.
 
-- [[computer-structure]] 🧱
-
-- [[ubuntu]] 🐒
-
-- [[docker]] 🐋
-
-- [[algorithm]] ➗
-
+<div id="sections"></div>
 
 <style>
 .section
