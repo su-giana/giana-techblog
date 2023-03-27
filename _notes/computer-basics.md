@@ -50,8 +50,8 @@ title: "Computer Basics"
 {
     display: grid;
     place-items: center normal;
-    padding: 2vw 0vw;
-    margin-right: 0vw;
+    padding: 2vw 2vw;
+    margin: 0vw;
     width: 16vw;
     transition: all 300ms linear;
 
@@ -82,7 +82,7 @@ title: "Computer Basics"
 
 .sections
 {
-    display: flex;
+    display: grid;
     margin: 4.5vw 0vw;
 }
 .secimg
