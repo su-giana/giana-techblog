@@ -34,7 +34,7 @@ title: "Computer Basics"
     add_section("algorithm", "argb.png", "Algorithm");
 </script>
     
-# Section.
+<h1>Section.</h1>
 
 <div id="sections"></div>
 
