@@ -1,5 +1,5 @@
 ---
-title: "Algorithm"
+title: "About coding and debugging"
 ---
 from [[algorithm]]
 
