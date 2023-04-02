@@ -36,6 +36,7 @@ from [[computer-basics]]
 
     add_posting('oops', 'overview.jpeg', 'Overview of Problem Solving', 'This chapter explained effective approach to problem solving technique');
     add_posting('acd', 'debug.png', 'About Coding and Debugging', 'This section described how to code better and common mistake');
+    add_posting('ivind', 'mathproof.png', 'Mathematical induction and loop in variant', 'Mathemacial proofs for problem solving');
 </script>
 
 <style>
