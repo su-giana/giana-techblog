@@ -37,7 +37,7 @@ from [[computer-basics]]
     add_posting('oops', 'overview.jpeg', 'Overview of Problem Solving', 'This chapter explained effective approach to problem solving technique');
     add_posting('acd', 'debug.png', 'About Coding and Debugging', 'This section described how to code better and common mistake');
     add_posting('ivind', 'mathproof.png', 'Mathematical induction and loop in variant', 'Mathemacial proofs for problem solving');
-    add_posting('bf', 'bf.png', 'Brute Force', 'The first step of algorithm, brute force and greedy! This section represented source code examples of brute force and essential condition when it comes to try brute force')
+    add_posting('bf', 'bf.png', 'Brute Force', 'The first step of algorithm, brute force and greedy! This section represented source code examples of brute force and essential condition when it comes to try brute force');
 </script>
 
 <style>
