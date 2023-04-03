@@ -115,6 +115,7 @@ To solve that problem. This code find the first student who are not matched yet 
 input : game board
 output : number of cases to fill game board except black area
 In this case, **we need to force order to put blocks**. If we not, program will count (put 3 - 1 -2) and (put 1 - 2 - 3) seperately.
+
 ``` C++
 // relative position of four blocks
 const int coverType[4][3][2] = 
