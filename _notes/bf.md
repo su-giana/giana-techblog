@@ -167,6 +167,7 @@ int cover(vector<vector<int> >& board)
     return ret;
 }
 ```
+
 ## Optimization problem
 ### Traveling Salesman Problem(TSP)
 ``` C++
@@ -191,6 +192,7 @@ double shortestPath(vector<int>& path, vector<bool>& visited, double currentLeng
     return ret;
 }
 ```
+
 ### Rotating clock
 ```C++
 const int INF=9999, SWITCHES=10, CLOCKS=16;
