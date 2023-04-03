@@ -116,7 +116,7 @@ input : game board
 output : number of cases to fill game board except black area
 In this case, **we need to force order to put blocks**. If we not, program will count (put 3 - 1 -2) and (put 1 - 2 - 3) seperately.
 
-```
+<code>
 const int coverType[4][3][2] = // relative position of four blocks
 {
     {{0, 0}, {1, 0}, {0, 1}},
@@ -124,7 +124,6 @@ const int coverType[4][3][2] = // relative position of four blocks
     {{0, 0}, {1, 0}, {1, 1}},
     {{0, 0}, {1, 0}, {1, -1}}
 };
-
 bool set(vector<vector<int> >& board, int x, int y, int type, int delta)
 {
     bool ok = true;
@@ -139,7 +138,6 @@ bool set(vector<vector<int> >& board, int x, int y, int type, int delta)
     }
     return ok;
 }
-
 int cover(vector<vector<int> >& board)
 {
     int y=-1, x=-1;
@@ -166,7 +164,7 @@ int cover(vector<vector<int> >& board)
     }
     return ret;
 }
-```
+</code>
 
 ## Optimization problem
 ### Traveling Salesman Problem(TSP)
@@ -214,7 +212,6 @@ void push(vector<int>& clocks, int swtch)
         }
     }
 }
-
 int solve(vector<int>& clocks, int swtch)
 {
     if(swtch == SWITCHES) return areAligned(clocks) ? 0 : INF;
