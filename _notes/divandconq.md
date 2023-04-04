@@ -35,7 +35,7 @@ SquareMatrix pow(const SquareMatrix& A, int m)
 }
 ```
 ### Multiply two big numbers
-<img src = "../assets/bigmul.jpeg" width = "100vw" height = "80vw">
+<img src = "../assets/bigmul.jpeg" width = "1000vw" height = "800vw">
 
 ```C++
 // compute digits
