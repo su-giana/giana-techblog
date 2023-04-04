@@ -38,6 +38,7 @@ from [[computer-basics]]
     add_posting('acd', 'debug.png', 'About Coding and Debugging', 'This section described how to code better and common mistake');
     add_posting('ivind', 'mathproof.png', 'Mathematical induction and loop in variant', 'Mathemacial proofs for problem solving');
     add_posting('bf', 'bf.png', 'Brute Force', 'The first step of algorithm, brute force and greedy! This section represented source code examples of brute force and essential condition when it comes to try brute force');
+    add_posting('divandconq', 'conq.png', 'Divide and Conquer', "Let's divide problem and conquer it throught solving small size problems. The post explained various algorithm using divide and conquer and tips for it");
 </script>
 
 <style>
