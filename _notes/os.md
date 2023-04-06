@@ -1,9 +1,7 @@
 ---
-title: "Computer Basics"
+title: "Computer Structure"
 ---
-from [[technology]]
-
-<h1>Section.</h1>
+from [[computer-basics]]
 
 <div id="postings"></div>
 
@@ -35,11 +33,9 @@ from [[technology]]
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("computer-structure", "inside_computer.png", "Computer Structure", "Computer Structure for beginning of computer basic");
-    add_posting("ubuntu", "ubuntu.png", "Ubuntu", "Understanding of Ubuntu");
-    add_posting("dockr", "docker.png", "Docker", "Virtualization for everything");
-    add_posting("algorithm", "algorithm.png", "Algorithm", "Algorithm for designing effective system");
-    add_psosting("os", "os.png", "Operating System", "Operating System to write better code")
+
+    add_posting('osintro', 'intro.png', 'Introduction', "Let's jump into the world of operating system");
+
 </script>
 
 <style>
