@@ -39,6 +39,7 @@ from [[computer-basics]]
     add_posting('ivind', 'mathproof.png', 'Mathematical induction and loop in variant', 'Mathemacial proofs for problem solving');
     add_posting('bf', 'bf.png', 'Brute Force', 'The first step of algorithm, brute force and greedy! This section represented source code examples of brute force and essential condition when it comes to try brute force');
     add_posting('divandconq', 'conq.png', 'Divide and Conquer', "Let's divide problem and conquer it throught solving small size problems. The post explained various algorithm using divide and conquer and tips for it");
+    add_posting('dp', 'dp.png', 'Dynamic Programming', "Dynamic Programming let us improve speed and efficiency of code with overlapped subproblems. This chapter introduce overview of dynamic programming and diverse solution using dynamic programming");
 </script>
 
 <style>
