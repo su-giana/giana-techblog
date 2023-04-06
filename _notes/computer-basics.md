@@ -37,9 +37,10 @@ from [[technology]]
     }
     add_posting("computer-structure", "inside_computer.png", "Computer Structure", "Computer Structure for beginning of computer basic");
     add_posting("ubuntu", "ubuntu.png", "Ubuntu", "Understanding of Ubuntu");
-    add_posting("dockr", "docker.png", "Docker", "Virtualization for everything");
+    add_posting("docker", "docker.png", "Docker", "Virtualization for everything");
     add_posting("algorithm", "algorithm.png", "Algorithm", "Algorithm for designing effective system");
-    add_psosting("os", "os.png", "Operating System", "Operating System to write better code")
+    add_posting("os", "os.png", "Operating System", "Operating System to write better code");
+    add_posting("db", "db.png", "Database", "Theory for effective database managing");
 </script>
 
 <style>
