@@ -35,6 +35,8 @@ from [[computer-basics]]
     }
 
     add_posting('language-system-inside-of-computer', 'binary.png', 'Language system inside of computer', 'This chapter explained language system inside of computer such as bit with binary format, boolean algebra');
+    add_posting('cl', 'logic.png', 'Combinational Logic', 'Why computer use bit not 10 digit numbers? Get to know how computer works in digital world in this session');
+
 </script>
 
 <style>
