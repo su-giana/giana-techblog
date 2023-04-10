@@ -153,3 +153,197 @@ int path2(int x, int y)
 > condition which is established in some problems and the way of division
 In above case, one problem divides to two problems and if we solve each subproblem in optimal status,  we can reach to optimal result of overall problem.
 
+### LIS(Longest Increasing Subsequence) problem
+```C++
+// Exhausive search
+int lis(const vector<int>& A)
+{
+    if(A.empty())   return 0;
+    int ret = 0;
+    for(int i = 0 ; i<A.size() ; i++)
+    {
+        vector<int> B;
+        for(int j = 0 ; j<A.size() ; j++)
+        {
+            if(A[i] < A[j])
+                B.push_back(A[j]);
+        }
+        ret = max(ret, 1+lis(B));
+    }
+    return ret;
+}
+```
+```C++
+//dp
+int n;
+int cache[101], S[100];
+int lis(int start)
+{
+    int& ret = cache[start+1];
+    if(ret != -1)   return ret;
+    ret = 1;
+    for(int next = start+1 ; next<n ; ++next)
+    {
+        if(start == -1 || S[start] < S[next])
+            ret = max(ret, lis(next) + 1);
+    }
+    return ret;
+}
+```
+
+## Optimization of dynamic programming
+1. Construct exclusive search algorithm which generate every possible answer candidate and return optimized result
+2. Distort definition of subproblem to return the answer in defined range.
+3. Reduce information related to previous selection if it is not needed. 
+4. If we convert input to string or array, apply memorization.
+
+### JLIS(Joined Longest Increaseing Subsequence)
+```C++
+const long long NEGINF = numeric_limits<long long>::min();
+int n, m, A[100], B[100];
+int cache[101][101];
+
+int jlis(int indexA, int indexB)
+{
+    int& ret = cache[indexA+1][indexB+1];
+    if(ret != -1)   return ret;
+
+    ret=2;
+    long long a = (indexA == -1 ? NEGINF : A[indexA]);
+    long long b = (indexB == -1 ? NEGINF : B[indexB]);
+    long long maxElement = max(a, b);
+
+    for(int nextA = indexA + 1 ; nextA<n ; nextA++)
+    {
+        if(maxElement < A[nextA])
+            ret = max(ret, jlis(nextA, indexB) + 1);
+    }
+    for(int nextB = indexB + 1 ; nextB<n ; nextB++)
+    {
+        if(maxElement < B[nextB])
+            ret = max(ret, jlis(indexA, nextB) + 1);
+    }
+    return ret;
+}
+```
+### PI
+```C++
+// https://algospot.com/judge/problem/read/PI
+const int INF = 987654321;
+string N;
+int classify(int a, int b)
+{
+    string M = N.substr(a, b-a+1);
+    // if all char is same -> dif. == 1
+    if(M == string(M.size(), M[0]))     return 1;
+    // check if it is arithmetric progression
+    bool progressive = true;
+    for(int i = 0 ;i<M.size() - 1 ; ++i)
+    {
+        if(M[i+1] - M[i] != M[1] - M[0])
+            progressive = false;
+    }
+    if(progressive && abs(M[1] - M[0]) == 1)
+        return 2;
+    bool alternating = true;
+    for(int i = 0 ; i<M.size() ; i++)
+    {
+        if(M[i] != M[i%2])
+            alternating = false;
+    }
+    if(alternating) return 4;
+    if(progressive) return 5;
+    return 10;
+}
+int cache[10002];
+int memorize(int begin)
+{
+    if(begin == N.size())   return 0;
+    int& ret = cache[begin];
+    if(ret != -1)   return ret;
+    ret = INF;
+    for(int L = 3 ; L<=5 ; ++L)
+    {
+        if(begin + L <= N.size())
+        {
+            ret = min(ret, memorize(begin + L) + classify(begin, begin + L - 1));
+        }
+    }
+    return ret;
+}
+```
+
+### Quantization
+```C++
+const int INF = 987654321;
+int n;
+int A[101], pSum[101], pSqSum[101];
+void precalc()
+{
+    sort(A, A+n);
+    pSum[0] = A[0];
+    pSqSum[0] = A[0] * A[0];
+    for(int i = 1 ; i<n ; i++)
+    {
+        pSum[i] = pSum[i-1] + A[i];
+        pSqSum[i] = pSqSum[i-1] + A[i] * A[i];
+    }
+}
+int minError(int lo, int hi)
+{
+    int sum = pSum[hi] - (lo == 0 ? 0 : pSum[lo-1]);
+    int sqSum = pSqSum[hi] - (lo == 0 ? 0 : pqSum[lo-1]);
+    int m = int(0.5 + (double)sum / (hi-lo+1));
+    int ret = sqSum - 2 * m * sum + m * m * (hi-lo+1);
+    return ret;
+}
+int cache[101][11];
+int quantize(int from, int parts)
+{
+    // base case : if we quantize every numbers
+    if(from == n)   return 0;
+    // base case : though we can bind more, return very big value
+    if(parts == 0)  return INF;
+    int& ret = cache[from][parts];
+    if(ret != -1)   return ret;
+    ret = INF;
+    // find smallest value varying length of parts
+    for(int partSize = 1 ; from+partSize <= n ; partSize++)
+    {
+        ret = min(ret, minError(from, from + partSize - 1) + quantize(from + partSize , parts - 1));
+    }
+    return ret;
+}
+```
+
+### Tiling
+```C++
+// https://www.algospot.com/judge/problem/read/TILING2
+const int MOD = 10000000007;
+int cache[101];
+int tiling(int width)
+{
+    // base case : width<=1
+    if(width <= 1)  return 1;
+    //memorization
+    int& ret = cache[width];
+    if(ret != -1)   return ret;
+    return ret = (tiling(width-1) + tiling(width-1)) % MOD;
+}
+```
+
+### Count the number of valid path on triangle
+```C++
+int countCache[100][100];
+int count(int x, int y)
+{
+    if(y == n-1)    return ret;
+    // Memorization
+    int& ret - countCache[x][y];
+    if(ret != -1)   return ret;
+    ret = 0;
+    if(path(x+1, y+1) >= path(x, y+1))  ret += count(x+1, y+1);
+    if(path(x+1, y+1) <= path(x, y+1)   ret += count(x, y+1);
+    return ret;
+}
+```
