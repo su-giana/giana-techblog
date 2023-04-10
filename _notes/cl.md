@@ -27,3 +27,20 @@ Above figure is for understanding electicity's 0 and 1 compare to plumber. Just 
 - Resistance is measured in __ohms__
 <img src="../assets/ca212.png" width="800vw" height="600vw">
 
+## Logic Gates
+<img src="../assets/logicgates.png" width="800vw" height="600vw">
+
+It's not efficient to build AND and OR gates using the _transistor_-_trsnsistor_-_logic_(_TTL_) technology of the 5400 and 7400 series parts, because the output from a simple gate circuit is naturally inverted, so it takes an inverter to make it come out right side up. This would make them more expensive, slower, and more power-hungry. So, the basic gates were NAND and NOR. 
+
+## Improving Noise Immunity with Hysteresis
+<img src="../assets/glitch.png" width="800vw" heigh="600vw">
+
+You can see that the noisy signal causes a _glitch_ in the output because the noise makes the sitnal cross the threshold more than once. We cab get arount this with _hysteresis_. The transfer function is not symmetrical; in effect, there are different transfer functions for rising signal (thos going from 0 to 1) and falling signals (thos going from 1 to 0) as indicated by the arrows. This gives us two different thresholds : one for rising signals and one for falling signals. This means that when a signal crosses one of the thresholds, it has a lot farther to go before crossing the other, and that translates into higher noise immunity. 
+
+## Differential signaling
+<img src="../assets/diffsignal.png" width="800vw" height="600vw">
+
+Differential signalling is a method for electrically transmitting information using two complementary signals. You can see that there's a _driver_ that converts the input signal into _complementary outputs_, and a _receiver_ that converts complementary inputs back into a _single-ended_ output. 
+
+## Propagation Delay
+_Propagation Delay_ is the amount of time it takes for a change in input to be reflected in the output.
