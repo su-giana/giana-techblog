@@ -14,3 +14,12 @@ title: "Computer Networks and The Internet"
  End system access the Internet through **Internet Service Providers(ISPs)**, including residential USPs such as local cable or telephone companies; Each ISP is in itself a network of packet switches and communication links. ISPs provide a variety of types of network access to the end systems, including residential broadband access.
 
  End systems, packet switches, and other pieces of the Internet run **protocols** that control the sending and receiving of information within the Internet. The **Transmission Control Protocol(TCP)** and the **Internet Protocol(IP)** are two of the most important protocols in the Internet. The IP protocol specifies the format of the packets that are sent and received among routers and end systems. The Internet's principal protocols are collectively known as **TCP/IP**.
+
+### A Services Description
+End system attached to the Internet provide a **socket interface** that specifies how a program running on one end system asks the Interenet infrastructure to deliver data to a specific destination program running on another end system. This Internet socket interface is a set of rules that the sending program must follow so that the Internet can deliver the data to the destination program.
+
+### What is Protocol?
+All activity in the Internet that involves two or more communicating remote entities is governed by a protocol.
+> A **protocol** defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+
+<hr>
