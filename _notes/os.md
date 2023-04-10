@@ -1,5 +1,5 @@
 ---
-title: "Computer Structure"
+title: "Operating System"
 ---
 from [[computer-basics]]
 
