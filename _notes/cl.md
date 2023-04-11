@@ -44,3 +44,43 @@ Differential signalling is a method for electrically transmitting information us
 
 ## Propagation Delay
 _Propagation Delay_ is the amount of time it takes for a change in input to be reflected in the output.
+
+## Building More Complicated Circuits
+### Building Adder
+
+<img src="../assets/halfadder.png" width="800vw" height="600vw">
+
+You can see that the XOR gate provides the sum and the AND gate provides the carry. Above figure is called a _half adder_ because something is missing. It's fine for adding two bits, but there needs to be a third input so that we can carry. This means that two adders are needed to get the sum for each bit. We carry when at least two of the inputs are 1. Below figure is called _full adder_.
+
+<img src="../assets/fulladder.png" width="800vw" height="600vw">
+
+As you can see, this takes many more gates. But now that we have the full adder, we can use it to build an adder for more than one bit. Below figure shows a configuration called a _ripple-carry_ adder.
+
+<img src="../assets/ripplecarryadder.png" width="800vw" height="600vw">
+
+This _ripple-carry adder_ gets its name from the way that the carry ripples from one bit to the next. The big sticking point here is that we need C_i in order to get C_i+1, which causes the ripple. 
+
+<img src="../assets/rippleformular.png" width="800vw" height="600vw">
+
+Note that although there are a lot more ANDs and ORs, there's still only two gates' worth of propagation delay. C_n always be generated from C_n-1, which uses an increasingly large number of gates as n increases. Although gates are cheap, they do comsume power, so there is a trade-off between speed and power consumption.
+
+### Building Decoders
+3:8 decoders that converts an octal value back into a set of single bits. When the input is 000, the Y_0 input is ture; when the input is 001, Y_1 is true; and so on. Decoders are principally named by the number of inputs and outputs.
+
+<img src="../assets/38decoder.png" width="800vw" height="600vw">
+<img src="../assets/38decoderschematic.png" width="800vw" height="600vw">
+
+This decoder would commonly be drawn as shown in above figure.
+
+### Building Multiplexers
+You can use a decoder to build a _demultiplexer_, commonly abbreviated as _dmux_, which allows an input to be directed to one of several outputs. A demultiplexer combines a decoder with come additional gates, as shown in below figure. The demultiplexer directs the input signal _D_ to one of the four outputs Y_(0-3) based on the decoder inputs S_(0-1). 
+
+<img src="../assets/14demultiplexer.png" width="800vw" height="600vw">
+<img src="../assets/demultiplexerschematic.png" width="800vw" height="600vw">
+
+### Building Selector
+Choosing one input from a number of inputs is another commonly performed function. Using gates, we cancreate another functional block called a _selector_ or _multiplexer_. Selector are also used a lot and have their own schematic symbol. 
+
+<img src="../assets/selector.png" width="800vw" height="600vw">
+<img src="../assets/selectorschematic.png" width="800vw" height="600vw">
+
