@@ -2,7 +2,7 @@
 title: "Computer Networks and The Internet"
 ---
 
-## What is the Internet?
+## 1. What is the Internet?
 ### A Nuts-andBolts Description
  The Internet is a computer network that interconnects bilions of computing devices throughout the world. In Internet jargon, all of these devices are called hosts or end systems. 
 
@@ -23,3 +23,9 @@ All activity in the Internet that involves two or more communicating remote enti
 > A **protocol** defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
 
 <hr>
+
+## 2. The Network Edge
+Hosts are sometimes further divided into two categories : **clients** and **servers**.
+
+### 2.1 Access Network
+Today, the two most prevalent types of broadband residential access are **digital subscriber line(DSL)** and cabel. 
