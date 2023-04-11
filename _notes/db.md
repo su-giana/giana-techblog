@@ -34,7 +34,7 @@ from [[computer-basics]]
         main.appendChild(obj);
     }
 
-    add_posting('osintro', 'intro.png', 'Introduction', "Let's jump into the world of operating system");
+    add_posting('fcodb', 'intro.png', 'A funamental concept of Database', "Let's jump into the world of Data Base");
 
 </script>
 
