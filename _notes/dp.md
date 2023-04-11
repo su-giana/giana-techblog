@@ -347,3 +347,130 @@ int count(int x, int y)
     return ret;
 }
 ```
+
+### Climbing
+#### Recipt for number of cases
+1. construct exhausive search algorithm which calculate every case
+Below characteristic should be established in each recursion step
+a) every case belongs to this selection
+b) no overlapping cases
+2. eliminate factors which was used for previous selection step
+
+```C++
+//https://algospot.com/judge/problem/read/SNAIL
+int n, m;
+int cache[MAX_N][2*MAX_N + 1];
+int climb(int days, int climbed)
+{
+    if(days==m) return climbed >= n ? 1 : 0;
+    int& ret = cache[days][climbed];
+    if(ret != -1)   return ret;
+    return ret = climb(days+1, climbed+1) + climbed(days+1, climbed+2);
+}
+```
+
+### ASYMTILING
+```C++
+//https://www.algospot.com/judge/problem/read/ASYMTILING
+int asymmetric(int width)
+{
+    if(width % 2 == 1)
+        return (tiling(width) - tiling(width/2) + MOD) % MOD;
+    int ret - tiling(width);
+    ret = (ret - tiling(width/2) + MOD) % MOD;
+    ret = (ret - tiling(width/2-1) + MOD) * MOD;
+    return ret;
+}
+```
+
+```C++
+int cache[101];
+int asymmetric(int width)
+{
+    if(width<=2)    return 0;
+
+    int &ret = cache[width];
+    if(ret != -1)   return ret;
+    ret = asymmetric(witdh-2) % MOD;
+    ret = (ret + asymmetric(width-4)) % MOD;
+    ret = (ret + tiling(width - 3)) % MOD;
+    ret = (ret + tiling(width - 3)) % MOD;
+    return ret;
+}
+```
+
+### Polynomio
+```C++
+const int MOD = 10*1000*1000;
+int cache[101][101];
+int poly(int n, int first)
+{
+    if(n == first)  return 1;
+    int& ret = cache[n][first];
+    if(ret!=-1) return ret;
+    ret = 0;
+    for(int second = 1 ; second <= n-first ; second++)
+    {
+        int add = second + first - 1;
+        add *= poly(n-first, second);
+        add %= MOD;
+        ret += add;
+        ret %= MOD;
+    }
+    return ret;
+}
+```
+
+### prison break of Dr. Dunibal
+```C++
+// Exhausive search
+//https://www.algospot.com/judge/problem/read/NUMB3RS
+int n, d, p, q;
+int connected[51][51], deg[51];
+double search(vector<int>& path)
+{
+    if(path.size() == d+1)
+    {
+        if(path.back() != q)    return 0.0;
+
+        double ret = 1.0;
+        for(int i = 0 ; i<path.size() ; i++)
+        {
+            ret /= deg[path[i]];
+        }
+        return ret;
+    }
+    double ret = 0;
+    for(int there = 0 ; there<n ; there++)
+    {
+        if(connected[path.back()][there])
+        {
+            path.push_back(there);
+            ret += search(path);
+            path.pop_back();
+        }
+    }
+    return ret;
+}
+```
+
+```C++
+//dp
+int n, d, p, q;
+double cache[51][101];
+int connected[51][51], deg[51];
+double search(int here, int days)
+{
+    if(days == d)   return (here == q ? 1.0 : 0.0);
+
+    double& ret = cache[here][days];
+    if(ret>-0.5)    return ret;
+    ret = 0.0;
+    for(int there = 0 ; there < n ; there++)
+    {
+        if(connected[here)[there])
+            ret += search(there, days+1) / deg[here];
+    }
+    return ret;
+}
+```
