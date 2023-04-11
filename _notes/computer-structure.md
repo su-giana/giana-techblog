@@ -1,5 +1,5 @@
 ---
-title: "Computer Structure"
+title: "Computer Architecture"
 ---
 from [[computer-basics]]
 

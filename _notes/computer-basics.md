@@ -35,7 +35,7 @@ from [[technology]]
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("computer-structure", "inside_computer.png", "Computer Structure", "Computer Structure for beginning of computer basic");
+    add_posting("computer-structure", "inside_computer.png", "Computer Architecture", "Computer Structure for beginning of computer basic");
     add_posting("ubuntu", "ubuntu.png", "Ubuntu", "Understanding of Ubuntu");
     add_posting("docker", "docker.png", "Docker", "Virtualization for everything");
     add_posting("algorithm", "algorithm.png", "Algorithm", "Algorithm for designing effective system");

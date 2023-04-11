@@ -2,11 +2,11 @@
 title: "Combinational Logic"
 ---
  
- ## Why we use computer?
+## Why we use computer?
 
- > the stability that comes from using decision criteria is the primary reason we build digital(discrete) computers
+> the stability that comes from using decision criteria is the primary reason we build digital(discrete) computers
 
- ## Digital in an Analog World
+## Digital in an Analog World
 
 <img src="../assets/ca25.png" width="800vw" height="600vw">
 
@@ -25,6 +25,7 @@ Above figure is for understanding electicity's 0 and 1 compare to plumber. Just 
 - The electrical equivalent of water pressure : voltage
 - The amount of flow : current
 - Resistance is measured in __ohms__
+
 <img src="../assets/ca212.png" width="800vw" height="600vw">
 
 ## Logic Gates
@@ -38,7 +39,7 @@ It's not efficient to build AND and OR gates using the _transistor_-_trsnsistor_
 You can see that the noisy signal causes a _glitch_ in the output because the noise makes the sitnal cross the threshold more than once. We cab get arount this with _hysteresis_. The transfer function is not symmetrical; in effect, there are different transfer functions for rising signal (thos going from 0 to 1) and falling signals (thos going from 1 to 0) as indicated by the arrows. This gives us two different thresholds : one for rising signals and one for falling signals. This means that when a signal crosses one of the thresholds, it has a lot farther to go before crossing the other, and that translates into higher noise immunity. 
 
 ## Differential signaling
-<img src="../assets/diffsignal.png" width="800vw" height="600vw">
+<img src="../assets/difsignal.png" width="800vw" height="600vw">
 
 Differential signalling is a method for electrically transmitting information using two complementary signals. You can see that there's a _driver_ that converts the input signal into _complementary outputs_, and a _receiver_ that converts complementary inputs back into a _single-ended_ output. 
 
@@ -48,39 +49,39 @@ _Propagation Delay_ is the amount of time it takes for a change in input to be r
 ## Building More Complicated Circuits
 ### Building Adder
 
-<img src="../assets/halfadder.png" width="800vw" height="600vw">
+<img src="../assets/halfadder.png" width="500vw" height="500vw">
 
 You can see that the XOR gate provides the sum and the AND gate provides the carry. Above figure is called a _half adder_ because something is missing. It's fine for adding two bits, but there needs to be a third input so that we can carry. This means that two adders are needed to get the sum for each bit. We carry when at least two of the inputs are 1. Below figure is called _full adder_.
 
-<img src="../assets/fulladder.png" width="800vw" height="600vw">
+<img src="../assets/fulladder.png" width="500vw" height="500vw">
 
 As you can see, this takes many more gates. But now that we have the full adder, we can use it to build an adder for more than one bit. Below figure shows a configuration called a _ripple-carry_ adder.
 
-<img src="../assets/ripplecarryadder.png" width="800vw" height="600vw">
+<img src="../assets/ripplecarryadder.png" width="500vw" height="500vw">
 
 This _ripple-carry adder_ gets its name from the way that the carry ripples from one bit to the next. The big sticking point here is that we need C_i in order to get C_i+1, which causes the ripple. 
 
-<img src="../assets/rippleformular.png" width="800vw" height="600vw">
+<img src="../assets/rippleformular.png" width="500vw" height="500vw">
 
 Note that although there are a lot more ANDs and ORs, there's still only two gates' worth of propagation delay. C_n always be generated from C_n-1, which uses an increasingly large number of gates as n increases. Although gates are cheap, they do comsume power, so there is a trade-off between speed and power consumption.
 
 ### Building Decoders
 3:8 decoders that converts an octal value back into a set of single bits. When the input is 000, the Y_0 input is ture; when the input is 001, Y_1 is true; and so on. Decoders are principally named by the number of inputs and outputs.
 
-<img src="../assets/38decoder.png" width="800vw" height="600vw">
-<img src="../assets/38decoderschematic.png" width="800vw" height="600vw">
+<img src="../assets/38decoder.png" width="500vw" height="500vw">
+<img src="../assets/38decoderschematic.png" width="500vw" height="500vw">
 
 This decoder would commonly be drawn as shown in above figure.
 
 ### Building Multiplexers
 You can use a decoder to build a _demultiplexer_, commonly abbreviated as _dmux_, which allows an input to be directed to one of several outputs. A demultiplexer combines a decoder with come additional gates, as shown in below figure. The demultiplexer directs the input signal _D_ to one of the four outputs Y_(0-3) based on the decoder inputs S_(0-1). 
 
-<img src="../assets/14demultiplexer.png" width="800vw" height="600vw">
-<img src="../assets/demultiplexerschematic.png" width="800vw" height="600vw">
+<img src="../assets/14demultiplexer.png" width="500vw" height="500vw">
+<img src="../assets/demultiplexerschematic.png" width="500vw" height="500vw">
 
 ### Building Selector
 Choosing one input from a number of inputs is another commonly performed function. Using gates, we cancreate another functional block called a _selector_ or _multiplexer_. Selector are also used a lot and have their own schematic symbol. 
 
-<img src="../assets/selector.png" width="800vw" height="600vw">
-<img src="../assets/selectorschematic.png" width="800vw" height="600vw">
+<img src="../assets/selector.png" width="500vw" height="500vw">
+<img src="../assets/selectorschematic.png" width="500vw" height="500vw">
 
