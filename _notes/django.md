@@ -35,6 +35,7 @@ from [[technology]]
         obj.appendChild(div);
         main.appendChild(obj);
     }
+    add_posting("startdjango", "intro.png", "Start Django in Macbook M1 Pro", "Configureation setting and process to start project in Django"); 
     add_posting("djdesignpattern", "designpattern.png", "Django Design Pattern", "MTV pattern and security coding in django");
 </script>
 
