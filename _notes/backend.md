@@ -1,6 +1,7 @@
 ---
-title: "AI 🦾"
+title: "Backend"
 ---
+from [[computer-basics]]
 
 <div id="postings"></div>
 
@@ -33,11 +34,9 @@ title: "AI 🦾"
         main.appendChild(obj);
     }
 
-    add_posting('' , '', '', 
-    '');
-</script>
-    
+    add_posting('django', 'django.png', 'Django', 'Everything of Django (Design pattern, Security, Database, Distribution)');
 
+</script>
 
 <style>
     .post-body
@@ -50,13 +49,13 @@ title: "AI 🦾"
     {
         display: flex;
         justify-content: flex-start;
-        margin: 4.5vw 5vw;
+        margin: 3vw 3vw;
     }
     .preimg
     {
         display: inline-block;
-        width: 16vw;
-        height: 16vw;
+        width: 10vw;
+        height: 10vw;
         border-radius: 10px;
         margin: 0em 0em;
         margin-right: 3vw;
@@ -65,11 +64,14 @@ title: "AI 🦾"
     span
     {
         display: block;
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
     h1
     {
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin-top:0em;
     }
 </style>
+
+
+
