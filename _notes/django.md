@@ -35,8 +35,11 @@ from [[technology]]
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("startdjango", "intro.png", "Start Django in Macbook M1 Pro", "Configureation setting and process to start project in Django"); 
+    add_posting("startdjango", "intro.png", "Start Django in Macbook M1 Pro (Nginx + gunicorn + django)", "Configureation setting and process to start project in Django"); 
     add_posting("djdesignpattern", "designpattern.png", "Django Design Pattern", "MTV pattern and security coding in django");
+    add_posting("djangotemplate", "template.png", "Template of View, Template and Model", "How to write code of MVT pattern?");
+    add_posting("djangodbconnect", "db.png", "Add databases to Django", "Redis and Postgresql for Django");
+    add_posting("djangorest", "crud.png", "CRUD programming with django's RestFramework API", "Construction of CRUD(posting system) with Django RestFrameworkAPI");
 </script>
 
 <style>
