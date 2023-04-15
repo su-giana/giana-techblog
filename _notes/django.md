@@ -40,6 +40,7 @@ from [[technology]]
     add_posting("djangotemplate", "template.png", "Template of View, Template and Model", "How to write code of MVT pattern?");
     add_posting("djangodbconnect", "db.png", "Add databases to Django", "Redis and Postgresql for Django");
     add_posting("djangorest", "crud.png", "CRUD programming with django's RestFramework API", "Construction of CRUD(posting system) with Django RestFrameworkAPI");
+    add_posting("djangovue", "vue.png" "vue.js for frontend", "Let's make frontend with vue.js!");
 </script>
 
 <style>
