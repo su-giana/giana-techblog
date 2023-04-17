@@ -104,14 +104,14 @@ else:
 
 ### Template
 #### Variable
-If you want to variable in template, put variable name in **{{}}**
+If you want to variable in template, put variable name in **{{variable name}}**
 
 #### for statement
 
 ```html
 {% for object in objects %}
     <div>{{object.attribute}}</div>
-{% end for %}
+{% endfor %}
 ```
 
 ## DRF

@@ -134,8 +134,135 @@ export default {
 ```
 
 ### axios
+> a promise-based HTTP library that lets developers make requests to either their own or a third-party server to fetch data
 #### Installation
 
 ```shell
 $ npm install axios
+```
+
+#### Configuration
+In vue project directory/main.js, import axios and specify server address of django. 
+
+```js
+import axios from "axios";
+
+let url = "http://localhost:8000/";
+
+axios.get(url).then(function(response){
+    console.log(response);   // test connection
+})
+.catch(function(response){
+    console.log(respones);
+})
+```
+
+### Cors
+a promise-based HTTP library that lets developers make requests to either their own or a third-party server to fetch data
+#### Django Cors Header
+
+```shell
+pip install django-cors-headers
+```
+
+#### Change settings.py
+
+```python
+INSTALLED_APPS = [
+    'corsheaders',
+]
+
+MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+]
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8080',
+    'http://127.0.0.1:8080',
+)
+```
+
+<hr>
+
+## CRUD with Django + View
+We will get data with "mounted" when we load a page. We will get userList form DRF server after DOM object is generated.
+
+```vue
+App.vue
+
+<template>
+  <div>
+    <HeaderVue />
+    <ContentVue />
+    <FooterVue />
+  </div>
+</template>
+
+<script>
+import axios from "axios"
+import HeaderVue from "./components/HeaderVue.vue";
+import ContentVue from "./components/ContentVue.vue";
+import FooterVue from "./components/FooterVue.vue";
+
+export default {
+    data: () => {
+        return {
+            userList: []
+        };
+    },
+
+    components: {
+    HeaderVue,
+    ContentVue,
+    FooterVue,
+  },
+
+  mounted(){
+    axios({
+        method: "GET",
+        url: url
+    })
+        .then(respones =>{
+            this.userList = response.data;
+        })
+        .catch(response => {
+            console.log("Failed", response);
+        });
+  },
+
+    methods: {
+        getUserList: function() {},
+        updateUserList: function() {},
+        deleteUserList: function() {}
+    }
+};
+</script>
+```
+
+
+### Component data transmission
+- Upper component -> Sub component (ex) app -> footer, header, content) : props attribute
+- Sub component -> Upper component (ex) footer, head, content -> app) : event emit
+
+```js
+//app.js
+<template>
+    <div>
+        <HeaderVue></HeaderVue>
+        <ContentVue v-bind:propsdata="userList"></ContentVue>
+        <FooterVue></FooterVue>
+    </div>
+</template>
+```
+
+```vue
+// componenets/Content.vue
+
+<v-list-item v-for="(data, index) in propsdata" v-bind:key="index">
+    <v-list-item-content>
+        <v-list-item-title>Name : {{data.username}}</v-list-item-title>
+            <v-list-item-subtitle>Age : {{data.age}}, Location: {{data.city}}
+        </v-list-item-subtitle>
+    </v-list-item-content>
+</v-list-item>
 ```
