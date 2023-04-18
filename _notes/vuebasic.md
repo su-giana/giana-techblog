@@ -16,7 +16,7 @@ v-bind : binding HTML components and data attribute of view instance
 v-on : binding HTML components with logic of instance (method included)
 For instance.
 
-```
+```vue
 <input v-bind:value="inputText" v-on:input="updateInput">
 new Vue({
     data: {
