@@ -42,6 +42,7 @@ from [[technology]]
     add_posting("djangorest", "crud.png", "CRUD programming with django's RestFramework API", "Construction of CRUD(posting system) with Django RestFrameworkAPI");
     add_posting("djangovue", "vue.png", "vue.js for frontend", "Let's make frontend with vue.js!");
     add_posting("vuebasic", "create.png", "Vue foundation and Create operation", "In this section, we learned how to use vue and create post in website")
+    app_posting("djangoredis", "redis.png", "Django and Redis Programming (pub/sub)", "To implement alarm system detecting flood with CV, let use make basic redis server");
 </script>
 
 <style>
