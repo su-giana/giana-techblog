@@ -36,6 +36,7 @@ from [[technology]]
         main.appendChild(obj);
     }
     add_posting("singletone", "singleton.png", "Singletone Pattern", "Singletone pattern for database connection module"); 
+    add_posting("factorypattern", "factory.png", "Factory Pattern", "Let's suppose we run a coffee factory");
 </script>
 
 <style>
