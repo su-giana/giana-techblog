@@ -21,4 +21,4 @@ The runtime data areas are the regions of memory that the JVM uses during the ex
 - A register used by the JVM to keep track of the address of the currently executing instruction
 
 ### The Native Method Stack
-- The Native Method Stack is used to store data related to the execution of native methods, which are methods implemented in a language other thna Java
+- The Native Method Stack is used to store data related to the execution of native methods, which are methods implemented in a language other than Java
