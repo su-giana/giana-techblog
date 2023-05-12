@@ -1,5 +1,5 @@
 ---
-title: "Django"
+title: "Design Pattern"
 ---
 from [[technology]]
 

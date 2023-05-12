@@ -35,7 +35,7 @@ from [[technology]]
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("whatisdocker", "../assets/osintro.png", "What is Docker?", "Introduction of Docker"); 
+    add_posting("whatisdocker", "../assets/intro.png", "What is Docker?", "Introduction of Docker"); 
 </script>
 
 <style>
