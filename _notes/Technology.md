@@ -32,9 +32,9 @@ title: "Technology"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("programminglanguage", "Programming Language", "pl.png", "Java deep dive");
-    add_posting("backend", "Backend", "server.png", "Backend programming knowledge such as spring boot, django");
-    add_posting("computer-basics", "Computer Science", "cs.png", "CS knowledge for effective programming");
+    add_posting("programminglanguage",  "pl.png", "Programming Language","Java deep dive");
+    add_posting("backend", "server.png","Backend",  "Backend programming knowledge such as spring boot, django");
+    add_posting("computer-basics", "cs.png","Computer Science",  "CS knowledge for effective programming");
 </script>
 
 <style>

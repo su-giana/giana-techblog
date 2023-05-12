@@ -6,3 +6,5 @@ The runtime data areas are the regions of memory that the JVM uses during the ex
 
 <img src="../assets/rad.png" width="500vw" height="300vw"></img>
 
+### The Heap
+- a shared memory region that is used to store objects and arrays in Java

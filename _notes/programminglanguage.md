@@ -32,7 +32,7 @@ title: "Programming Language"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_postring("java", "Java", "java.png" ,"Java deep dive");
+    add_postring("java", "java.png" ,"Java", "Java deep dive");
 </script>
 
 <style>

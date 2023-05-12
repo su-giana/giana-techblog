@@ -32,7 +32,7 @@ title: Java
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_postring("jvmrda", "Runtime Data Area", "db.png" ,"Simple explaination about Runtime Data Area");
+    add_postring("jvmrda", "db.png" ,"Runtime Data Area", "Simple explaination about Runtime Data Area");
 </script>
 
 <style>
