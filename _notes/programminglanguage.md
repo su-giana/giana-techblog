@@ -1,5 +1,5 @@
 ---
-title: "Technology"
+title: "Programming Language"
 ---
 
 <div id="postings"></div>
@@ -32,9 +32,7 @@ title: "Technology"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_postring("programminglanguage", "Programming Language", "pl.png", "Java deep dive");
-    add_posting("backend", "Backend", "server.png", "Backend programming knowledge such as spring boot, django");
-    add_postring("computer-basics", "Computer Science", "cs.png", "CS knowledge for effective programming");
+    add_postring("java", "Java", "java.png" ,"Java deep dive");
 </script>
 
 <style>
