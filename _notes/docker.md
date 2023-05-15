@@ -1,5 +1,5 @@
 ---
-title: "Django"
+title: "Docker"
 ---
 from [[technology]]
 
@@ -36,7 +36,7 @@ from [[technology]]
         main.appendChild(obj);
     }
     add_posting("whatisdocker", "../assets/intro.png", "What is Docker?", "Introduction of Docker"); 
-    add_posting("dockerarchitecture", "../assets/dockerarchitecture.png", "Architecture of Docker", "How does docker work in various environment?");
+    add_posting("dockerarchitecture", "../assets/strategy.png", "Architecture of Docker", "How does docker work in various environment?");
 </script>
 
 <style>
