@@ -38,6 +38,7 @@ from [[technology]]
     add_posting("singletone", "../assets/singleton.png", "Singletone Pattern", "Singletone pattern for database connection module"); 
     add_posting("factorypattern", "../assets/factorypattern.png", "Factory Pattern", "Let's suppose we run a coffee factory");
     add_posting("strategypattern", "../assets/strategy.png", "Strategy Pattern", "Same context, different strategy");
+    add_posting("observerpattern", "../assets/observer.png", "Observer Pattern", "What if you write notification algorithm of twitter?");
 </script>
 
 <style>
