@@ -40,6 +40,8 @@ from [[technology]]
     add_posting("strategypattern", "../assets/strategy.png", "Strategy Pattern", "Same context, different strategy");
     add_posting("observerpattern", "../assets/observer.png", "Observer Pattern", "What if you write notification algorithm of twitter?");
     add_posting("proxypattern", "../assets/server.png", "Proxy Pattern", "Role of proxy server");
+    add_posting("iteratorpattern", "../assets/iterator.png", "Iterator Pattern", "Iterator to traversal collection objects")
+    add_posting("mvcpattern", "../assets/collab.png", "MVC Pattern", "MVC, MVP, MVVC patterns");
 </script>
 
 <style>
