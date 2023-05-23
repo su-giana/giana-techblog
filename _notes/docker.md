@@ -38,6 +38,7 @@ from [[technology]]
     add_posting("whatisdocker", "../assets/intro.png", "What is Docker?", "Introduction of Docker"); 
     add_posting("dockerarchitecture", "../assets/strategy.png", "Architecture of Docker", "How does docker work in various environment?");
     add_posting("dockercommand", "../assets/command.png", "Commands of Docker", "Let's execute docker container and image through command");
+    add_posting("communicationofcontainer", "../assets/collab.png", "Configuration of container to communicate with other environment");
 </script>
 
 <style>
