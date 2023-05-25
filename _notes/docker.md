@@ -40,6 +40,7 @@ from [[technology]]
     add_posting("dockercommand", "../assets/command.png", "Commands of Docker", "Let's execute docker container and image through command");
     add_posting("communicationofcontainer", "../assets/collab.png", "Configuration of container to communicate with other environment");
     add_posting("indexationofcontainer", "../assets/indexation.png", "Indexation of Container", "The chapter introduces network of container in docker");
+    add_posting("handsoncontainer", "../assets/handson.png", "Hands-on Docker", "Docker technique for hands-on work");
 </script>
 
 <style>
