@@ -53,3 +53,20 @@ docker run -v {volume_name}:{container_mount_path}
 docker run -v {volume_name_or_id}:{container_file_or_directory_path} -v {path_to_backup_directory}:/{backup_directory_path} {image_name} tar -czvf /{backup_directory}/{backup_name}.tar.gz -C /{container_file_or_directory_path}
 ```
 This {backup_name}.tar.gz file can be used to restore the data or transfer it to another environment if needed.
+
+## Container to Image
+
+1. Write a Dockerfile
+2. Choose a base image using ```FROM````
+3. Install dependencies using ```RUN {linux commands}```(building an image) or ```CMD {linux commands}``` (executing container)
+4. Copy application code using ```COPY {original_path} {target_path}```
+5. build the image using ```docker build -t image_name:tag {path of Dockerfile}```
+
+## Modification of container
+1. Start the container : Use the `docker run` command to start a container from an existing image
+2. Access the container : Use the `docker exec -it {container_name} /bin/bash` command to open an interactive shell session within the running container.
+- You need to restart docker container after modifiy container with bash shell
+3. Make modifications
+4. Save the changes
+- Exit the container by typing `exit`
+- Commit change: Use the `docker commit` command to create a new image from the modified container
