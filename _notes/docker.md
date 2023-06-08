@@ -41,6 +41,7 @@ from [[computer-basics]]
     add_posting("communicationofcontainer", "../assets/collab.png", "Configuration of container to communicate with other environment");
     add_posting("indexationofcontainer", "../assets/indexation.png", "Indexation of Container", "The chapter introduces network of container in docker");
     add_posting("handsoncontainer", "../assets/handson.png", "Hands-on Docker", "Docker technique for hands-on work");
+    add_posting("dockercompose", "../assets/dockercompose.png", "docker-compose", "Docker Compose is used to define and manage multi-container Docker applications, simplifying their setup, configuration, and orchestration");
 </script>
 
 <style>
