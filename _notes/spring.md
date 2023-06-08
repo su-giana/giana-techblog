@@ -1,7 +1,6 @@
 ---
-title: "Backend"
+title: Spring
 ---
-from [[computer-basics]]
 
 <div id="postings"></div>
 
@@ -34,8 +33,7 @@ from [[computer-basics]]
         main.appendChild(obj);
     }
 
-    add_posting('django', 'django.png', 'Django', 'Everything of Django (Design pattern, Security, Database, Distribution)');
-    add_posting('spring', 'spring.png', 'Spring', 'Java framework that simplifies the development of enterprise applications by providing extensive features');
+    add_posting('gppdofspring', 'http.png', 'How to react to HTTP request in Spring', 'Various annotation to specify HTTP method and URL that the method handle');
 
 </script>
 
@@ -73,6 +71,3 @@ from [[computer-basics]]
         margin-top:0em;
     }
 </style>
-
-
-

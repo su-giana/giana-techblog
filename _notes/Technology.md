@@ -48,13 +48,13 @@ title: "Technology"
     {
         display: flex;
         justify-content: flex-start;
-        margin: 4.5vw 5vw;
+        margin: 3vw 3vw;
     }
     .preimg
     {
         display: inline-block;
-        width: 16vw;
-        height: 16vw;
+        width: 10vw;
+        height: 10vw;
         border-radius: 10px;
         margin: 0em 0em;
         margin-right: 3vw;
@@ -63,12 +63,11 @@ title: "Technology"
     span
     {
         display: block;
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
     h1
     {
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin-top:0em;
     }
 </style>
-
