@@ -1,7 +1,7 @@
 ---
 title: "Design Pattern"
 ---
-from [[computer-basic]]
+from [[computer-basics]]
 
 <h1>Section.</h1>
 

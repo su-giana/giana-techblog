@@ -36,6 +36,7 @@ title: Spring
     }
 
     add_posting('gppdofspring', 'http.png', 'How to react to HTTP request in Spring', 'Various annotation to specify HTTP method and URL that the method handle');
+    add_posting('dbinspring', 'db.png', 'Database connection in Spring with H2');
 
 </script>
 
