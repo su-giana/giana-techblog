@@ -2,6 +2,8 @@
 title: "Commands of Docker"
 ---
 
+- From [[docker]]
+
 ## docker run, stop, rm
 
 <img src="../assets/containerlifecycle.png" width=500vw height=300vw>

@@ -2,6 +2,8 @@
 title: "What is Docker?"
 ---
 
+- From [[docker]]
+
 > Docker is a software which provides technology to **isolate** of data or program including some part of OS
 
 <img src="../assets/dockercontainer.png" width="500vw" height="300vw">

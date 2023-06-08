@@ -2,6 +2,8 @@
 title: "MVC Pattern"
 ---
 
+- From [[designpattern]]
+
 > MVC pattern provides a structured approach to desinging and organizing user interface code, ensuring a clear separation between data, presentation, and user interface
 
 <hr>

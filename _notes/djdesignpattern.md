@@ -2,6 +2,8 @@
 title: Django's design pattern
 ---
 
+- From [[django]]
+
 ## Design pattern of Django
 Software Degisn Pattern : Reusable solution for to solve common problems in process of software development
 

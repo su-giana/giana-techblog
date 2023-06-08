@@ -2,6 +2,8 @@
 title: Simple application template of Django
 ---
 
+- From [[django]]
+
 ## 2. Making Django project
 ```shell
 django-admin startproject {project name} .

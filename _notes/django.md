@@ -1,7 +1,7 @@
 ---
 title: "Django"
 ---
-from [[technology]]
+from [[backend]]
 
 <h1>Section.</h1>
 

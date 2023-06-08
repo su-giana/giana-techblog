@@ -1,6 +1,9 @@
 ---
 title: Connect django and database(postgresql + redis)
 ---
+
+- From [[django]]
+
 ## 1-1. Database installation (Postgresql)
 > recommanding tool : DBeaver
 1. Postgresql installation

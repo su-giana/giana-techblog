@@ -2,6 +2,8 @@
 title: Django with Redis
 ---
 
+- From [[django]]
+
 ## Docker setting
 
 ```dockerfile

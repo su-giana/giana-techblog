@@ -1,6 +1,9 @@
 ---
 title: "Introduction"
 ---
+
+- From [[os]]
+
 > An operating system is software that manages a computer's hardware. It also provides a basis for application programs and acts as an intermediary between the computer user and the computer hardware.
 
 ## 1.1 What Operating Systems Do

@@ -2,6 +2,8 @@
 title: "Hands-on Docker"
 ---
 
+- From [[docker]]
+
 ## File copy
 In Docker, file copying involves transferring files between local system and a Docker container. Docker provides a built-in command called **`docker cp`** that allows us to copy files or directories to and from running containers.
 

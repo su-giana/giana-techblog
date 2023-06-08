@@ -2,6 +2,8 @@
 title: "Communication of Container"
 ---
 
+- From [[docker]]
+
 ## Communication of Container
 **Port** setting is needed to access a container through web brower. Physical server(computer) has to receive access of approch from outside of container using **port** and deliver it to container's **port** like **"-p {host port}:{continer port}"**.
 For instance,

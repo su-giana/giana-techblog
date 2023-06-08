@@ -2,6 +2,8 @@
 title: Vue.js for frontend
 ---
 
+- From [[django]]
+
 ## Installation
 your computer must have node.js before you try to install vue.js
 

@@ -2,6 +2,8 @@
 title: "Strategy Pattern"
 ---
 
+- From [[designpattern]]
+
 > A behavioral design pattern that enables an object to dynamically change its behavior by selecting and using an algorithm from a family of interchangeable algorithms
 
 - The pattern consists of defining a set of algorithms(strategies) that can be selected and used at runtime based on the specific requirements of the context

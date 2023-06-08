@@ -2,6 +2,8 @@
 title: "Factory Pattern"
 ---
 
+- From [[designpattern]]
+
 > The Factory Pattern is a design pattern in which a factory class is responsible for creating objects of different types based on a given set of parameters.
 - This allows for more flexibility in object creation and reduces the amount of duplicate code required.
 - The client code asks the factory to create an object without knowing which specific class is being used, and the factory returns an instance of the appropriate class based on the parameters given.

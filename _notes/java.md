@@ -2,6 +2,8 @@
 title: Java
 ---
 
+- From [[programminglanguage]]
+
 <div id="postings"></div>
 
 <script>

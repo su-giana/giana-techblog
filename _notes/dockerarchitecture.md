@@ -1,6 +1,9 @@
 ---
 title: "Architecture of Docker"
 ---
+
+- From [[docker]]
+
 ## Architecture of Docker
 
 In Docker environment, containers run above docker engine and docker engine runs above operating system. Every container contains part of Linux OS which is Linux OS excpet kernel becuase containers are seperated individually. So, Part of Linux in container gets commands from program and delivers them to Kernel.

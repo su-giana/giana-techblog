@@ -2,6 +2,8 @@
 title: "Observer Pattern"
 ---
 
+- From [[designpattern]]
+
 > The observer pattern is a design pattern in which an object, called the **subject**, maintains a list of its dependents, called **observers**, and notifies them automatically of any state change, usually by calling one of their method.
 - Commonly used in event driven systems, MVC(Model-View-Controller) pattern
 - The observer pattern promotes loose coupling between objects, which can make a system more flexible, reusable, and maintainable

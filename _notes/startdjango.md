@@ -2,6 +2,8 @@
 title: Start Django in Macbook M1 Pro (Gunicorn + Nginx + Django)
 ---
 
+- From [[django]]
+
 ## 1. Virutal Environment
 Make a virtual environment
 ```shell

@@ -2,6 +2,8 @@
 title: Vue foundation and Create model
 ---
 
+- From [[django]]
+
 ## Vue layout
 v-flex(sub) -> v-layout -> v-container (super)
 - v-container : container which contains content

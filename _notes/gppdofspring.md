@@ -2,6 +2,8 @@
 title: "HTTP Request of Spring"
 ---
 
+- From [[spring]]
+
 ```java
 @RestController
 @RequestMapping("/coffees")

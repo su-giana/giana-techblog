@@ -2,6 +2,8 @@
 title: "Programming Language"
 ---
 
+- From [[computer-basics]]
+
 <div id="postings"></div>
 
 <script>

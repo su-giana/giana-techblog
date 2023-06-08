@@ -2,6 +2,8 @@
 title: "Computer Networks and The Internet"
 ---
 
+- From [[network]]
+
 ## 1. What is the Internet?
 ### A Nuts-andBolts Description
  The Internet is a computer network that interconnects bilions of computing devices throughout the world. In Internet jargon, all of these devices are called hosts or end systems. 

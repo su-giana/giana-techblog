@@ -2,6 +2,8 @@
 title: 'A fundamental concept of Database'
 ---
 
+- From [[db]]
+
 ## Data and Information
 Data : fact and value collected by estimating or inspecting real world
 Information : The result of processing or organizing data to make it useful for decision-making

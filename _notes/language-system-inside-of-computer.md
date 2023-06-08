@@ -1,7 +1,7 @@
 ---
 title : "Language system inside of computer"
 ---
-From [[computer-basics]]
+From [[computer-structure]]
 
 ## Bit
 > Bit = Binary + Digit

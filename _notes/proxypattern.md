@@ -2,6 +2,8 @@
 title: "Proxy Pattern"
 ---
 
+- From [[designpattern]]
+
 <img src="../assets/proxypattern.png" width="500vw" height=300vw>
 
 > The proxy pattern is a design pattern that allows for the creation of a surrogate or placeholder object to control access to another object, challed the real subject

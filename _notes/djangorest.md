@@ -2,6 +2,8 @@
 title: RestFramework of django
 ---
 
+- From [[django]]
+
 ## Why we use DRF(Django Rest Framework)
 - Web browser API help our dev. easier
 - Provide **Serialization**(DB data to Json) function

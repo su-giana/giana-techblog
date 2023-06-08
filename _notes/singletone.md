@@ -2,6 +2,8 @@
 title: "Singleton Pattern"
 ---
 
+- From [[designpattern]]
+
 > Sigleton patterns are patterns that have only one instance in one class
 
 - Usually used for database connection module, network communication, cache

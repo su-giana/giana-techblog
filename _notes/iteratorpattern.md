@@ -2,6 +2,8 @@
 title: "Iterator Pattern"
 ---
 
+- From [[designpattern]]
+
 > Iterator pattern provides a uniform way to traverse the elements of a collection, decoupling the iteration logic from the collection itself and promoting code reusability and maintainability
 - you can easily add new collection types without modifying the existing client code that relies on the iterator interface
 

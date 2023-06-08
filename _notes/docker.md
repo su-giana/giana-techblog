@@ -1,7 +1,7 @@
 ---
 title: "Docker"
 ---
-from [[technology]]
+from [[computer-basics]]
 
 <h1>Section.</h1>
 

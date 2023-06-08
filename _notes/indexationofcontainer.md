@@ -2,6 +2,8 @@
 title: "Indexation of Container"
 ---
 
+- From [[docker]]
+
 ## Practice with Wordpress
 Wordpress is the best instance to practice container network because it requires some programs such as apache, database and php runtime. We will implement worldpress website using wordpress container and MySQL container.
 First of all, we need virtual network to connect two containers. The command is 

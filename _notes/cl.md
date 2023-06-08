@@ -2,6 +2,8 @@
 title: "Combinational Logic"
 ---
  
+- From [[computer-structure]]
+
 ## Why we use computer?
 
 > the stability that comes from using decision criteria is the primary reason we build digital(discrete) computers
