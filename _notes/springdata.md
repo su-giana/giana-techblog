@@ -8,6 +8,7 @@ title: "Spring Data"
  > Redis is an open-source, in-memory data structure store that can be used as a database, cache, and message broker
 
  ### 1.1. Initialize project
+ 
 **options**
  - Maven
  - Java: 17
