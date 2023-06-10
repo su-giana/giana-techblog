@@ -38,6 +38,7 @@ title: Spring
     add_posting('gppdofspring', 'http.png', 'How to react to HTTP request in Spring', 'Various annotation to specify HTTP method and URL that the method handle');
     add_posting('dbinspring', 'db.png', 'Database connection in Spring with H2');
     add_posting('springsetting', '../assets/setting.png', 'Application Setting and Management', 'Setting and monitoring functions in Spring refer to the capabilities provided by the Spring Actuator');
+    add_posting('springdata', '../assets/data.png', 'Spring data to reduce the amount of boilerplate code and repetitive task required when working with data access');
 
 </script>
 
