@@ -39,6 +39,7 @@ title: Spring
     add_posting('dbinspring', 'db.png', 'Database connection in Spring with H2');
     add_posting('springsetting', '../assets/server.png', 'Application Setting and Management', 'Setting and monitoring functions in Spring refer to the capabilities provided by the Spring Actuator');
     add_posting('springdata', '../assets/data.png', 'Spring Data', 'Spring data to reduce the amount of boilerplate code and repetitive task required when working with data access');
+    add_postng('springmvc', '../assets/app.png', 'Spring MVC', 'Spring MVC to provide a structured approach to building web application');
 
 </script>
 
