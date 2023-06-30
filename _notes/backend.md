@@ -1,7 +1,7 @@
 ---
 title: "Backend"
 ---
-from [[computer-basics]]
+from [[technology]]
 
 <div id="postings"></div>
 

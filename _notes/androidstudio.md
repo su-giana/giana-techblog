@@ -1,6 +1,7 @@
 ---
-title: "Technology"
+title: "Algorithm"
 ---
+from [[computer-basics]]
 
 <div id="postings"></div>
 
@@ -32,11 +33,8 @@ title: "Technology"
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("programminglanguage",  "pl.png", "Programming Language","Java deep dive");
-    add_posting("backend", "server.png","Backend",  "Backend programming knowledge such as spring boot, django");
-    add_posting("computer-basics", "cs.png","Computer Science",  "CS knowledge for effective programming");
-    add_posting("app-dev", "application.png","Application Development",  "Small knowledge for application development");
 
+    add_posting('applicationfundamentals', 'fundamentals.jpeg', 'Application Fundamentals', 'This chapter explained Application fundamentals in android studio (from official documentation)');
 </script>
 
 <style>
@@ -73,3 +71,6 @@ title: "Technology"
         margin-top:0em;
     }
 </style>
+
+
+
