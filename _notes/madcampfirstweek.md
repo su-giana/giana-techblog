@@ -33,7 +33,7 @@ This CoroutineScope seperates to runBlocking and coroutineScope. The main differ
 
 coroutine run on top of threads and can be suspended. When a coroutine is suspended, the corresponding computation is paused, removed from the thread, and stored in memory.
 
-<img src="../assets/superspension-process.gif" width = "500vw" height="300vw">
+<img src="../assets/suspension-process.gif" width = "500vw" height="300vw">
 
 ---
 
