@@ -33,7 +33,7 @@ title: "Project"
         main.appendChild(obj);
     }
 
-    add_posting("madcamp", "madcamp.png" ,"MadCamp", "One month at KAIST");
+    add_posting("madcamp", "../assets/madcamp.png" ,"MadCamp", "One month at KAIST");
 </script>
     
 
