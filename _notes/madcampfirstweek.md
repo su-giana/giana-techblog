@@ -20,6 +20,20 @@ Consequencely, the right sequence of function is below.
 
 ---
 
+## When threads or thread pools can be create in Anroid Studio
+
+1. Main Thread: The main thread, also known as the UI thread, is automatically created by the Android system when the application starts
+- This thread is responsible for handling user interface updates and events
+
+2. Background Threads: Additional threads can be created manually in Android applications to offload time-consuming tasks or perform work in the background
+
+3. AsyncTask: provides a convenient way to perform background operations on a separate thread and update the UI thread with the results
+
+4. Executors and Thread Pools: allow you to create and manage thread pools
+- You can submit tasks to these thread pools for concurrent execution
+
+5. Kotlin coroutines: Coroutine can be used to perform asynchronous operations and manage concurrency in more declarative and sequential manner
+
 ## Coroutine
 
 Before jump in to the world of Kotlin concurrency management, you need to know the concept of coroutine. 
@@ -41,13 +55,17 @@ coroutine run on top of threads and can be suspended. When a coroutine is suspen
 
 Above code is simple implementation of proper flow in the service. 
 
-First of all, runBlocking paragraph blocks every UI until all inner function finish their work properly and seperates main code area which has no dependency with service logic.
+First of all, runBlocking paragraph blocks every threads until all inner function finish their work properly and seperates main code area which has no dependency with service logic.
 
 Following designated service logic, execute insertSteps function if user is not awarded today with async paragraph and await() function which stand for stop execution of below code until the functions inside of async paragraph are ended.
 
 Same with insertSteps function, setSteps function retrieve steps from "Health Connect" application with response. Also below codes wait for ending of the function because of await() function.
 
-Then, display data on screen after all retrieve or create logic are done in runBlocking block properly.
+Then, display data on screen after all retrieve or create logic.
+
+The reason why we could use coroutine and async statement is the main logic inside of coroutineScope had no dependency with outside code such as UI componenets, external service logic.
+
+Especially, brief and capsulated code let us be able to unify whole service logic into one coroutine block.
 
 ---
 
