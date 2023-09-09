@@ -2,14 +2,14 @@
 title: Home
 ---
 
-<h1>Hi! I'm a developer studied in Korea, Giana 🍀</h1>
+<h1>나를 죽이지 못하는 것은 나를 강하게 만든다 🍀</h1>
 <div  width="1500vw" height="200vh" style="background: #E8F3D6">
 <p style="padding: 2vw 1vh; border-radius: 4px;">
-  💰 Plus, <span style="font-weight: bold">Junior Developer</span> interested in fintech.
+  💰 핀테크에 관심이 있는 <span style="font-weight: bold">신입 개발자</span>
   <br><br>
-  👩‍🦯 Usability for all user, focus on end-user not only for technology
+  👩‍🦯  사용자만을 생각해서, 최적의 기술을 제공합니다
   <br><br>
-  🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
+  🗣  효율적인 소통과 협업을 통한 지속 가능한 개발 생활
 </p>
 </div>
 
@@ -60,7 +60,7 @@ title: Home
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("whameleon", "cameleon.png" ,"Whameleon Project", "Payment System for Everyone, Traveling the world");
+    add_posting("whameleon-kor", "cameleon.png" ,"Whameleon 프로젝트", "세계를 여행하는 모든 이들을 위한, 맞춤 결제 수단 서비스");
 </script>
 
 <style>
