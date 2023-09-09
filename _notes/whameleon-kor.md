@@ -2,6 +2,8 @@
 title: "Whamelon 프로젝트"
 ---
 
+<div id="postings"></div>
+
 <script>
     function add_posting(url, image, title, des)
     {
