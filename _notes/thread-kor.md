@@ -4,7 +4,6 @@ sticker: emoji//26c8-fe0f
 # 스레드 이해하기
 > [!NOTE] 스레드란?
 > 프로세스 내에서 실행되는 최소 실행 단위
-
 ```c
 struct thread {
 	tid_t tid;                          
@@ -32,6 +31,7 @@ struct thread {
 ```
 ---
 # thread 함수의 이해
+![[Screenshot 2023-09-22 at 11.46.45 PM.png]]
 ## thread의 초기화
 ```c
 // 동작하는 스레드 반환

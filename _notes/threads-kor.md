@@ -1,7 +1,6 @@
 # Alarm Clock
 ## 0. 전체 소스코드
 ```c
-```c
 --- a/devices/timer.c
 +++ b/devices/timer.c
 @@ -87,14 +87,31 @@ timer_elapsed (int64_t then) {

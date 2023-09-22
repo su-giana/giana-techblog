@@ -25,7 +25,8 @@ struct list {
 
 ---
 # 자주 사용되는 함수
-함수의 사용 관계가 궁금하다면 [[]]
+![[Screenshot 2023-09-22 at 11.48.07 PM.png]]
+
 ```c
 // 가장 앞에 있는 원소 제거
 struct list_elem *
