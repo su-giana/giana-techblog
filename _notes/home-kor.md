@@ -61,7 +61,8 @@ title: Home
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("whameleon-kor", "cameleon.png" ,"Whameleon 프로젝트", "세계를 여행하는 모든 이들을 위한, 맞춤 결제 수단 서비스");
+    add_posting("whameleon-kor", "cameleon.png" ,"Whameleon 프로젝트", "유학생들을 위한 체크카드 충전 시스템");
+    add_posting("pintos-kaist-kor", "pintos.png", "Pintos Kaist", "Computer Science 심화 이해를 위한 운영체제, 네트워크, 데이터 베이스");
 </script>
 
 <style>

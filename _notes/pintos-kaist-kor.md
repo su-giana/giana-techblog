@@ -1,38 +1,5 @@
----
-title: Home
----
-
-<h1>Hi! I'm a developer studied in Korea, Giana 🍀</h1>
-<div  width="1500vw" height="200vh" style="background: #E8F3D6">
-<p style="padding: 2vw 1vh; border-radius: 4px;">
-  💰 Plus, <span style="font-weight: bold">Junior Developer</span> interested in fintech.
-  <br><br>
-  👩‍🦯 Usability for all user, focus on end-user not only for technology
-  <br><br>
-  🗣 Communicate effectively with co-worker, estabilsh sustainable dev. environment with automated platform 
-</p>
-</div>
-
-<div style="padding:1vw 1vh; display:flex; justify-content:flex-start;">
-<img src="../assets/image.jpg" height="250em" width="250em" style="border-radius:4px; margin: 0em 0em; padding-right:2em;">
-<div style="padding:1vw 0vh;">
-<span style="font-size: larger; padding: 2vw 0vh; color:#FAAB78;">Contact 📟. <br><strong style="font-size: x-larger; color: black;">giananews@gmail.com</strong></span>
-<br><br>
-<span style="font-size: larger; padding: 2vw 0vh; color: #FAAB78;">Github 🫙.<br> <strong style="font-size: x-larger; color: black;">
-<a href="https://github.com/su-giana/">Github Link</a>
-</strong></span>
-</div>
-</div>
-
-<hr>
-
-### Tech. stack
-- Computer basics : ```Computer Structure```, ```Algorithm```, ```Ubuntu Linux```, ```Docker```
-
-<hr>
 
 <div id="postings"></div>
-
 <script>
     function add_posting(url, image, title, des)
     {
@@ -61,8 +28,7 @@ title: Home
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("wholehole", "cameleon.png" ,"Wholehole Project", "Payment System for Everyone, Studying abroad");
-    add_posting("pintos-kaist", "pintos.png", "Pintos Kaist", "Small Operating System, Database and Network to dive in Computer Science");
+    add_posting("threads-kor", "thread.png" ,"1. 스레드", "인터럽트, 우선순위 최적화를 이해하기");
 </script>
 
 <style>
