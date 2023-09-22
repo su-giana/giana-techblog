@@ -96,6 +96,7 @@
 ---
 ## 1. 리스트 생성하기
 - 리스트에 대한 이해는 [[list-kor|여기]]
+
 ```c
 +struct list block_list;
 +FP load_avg;
@@ -112,6 +113,7 @@
 
 ## 2. 비교 로직 만들기
 - thread의 로직은 [[thread-kor|여기]]를 참고
+
 ```c
 +static bool compare_tick (const struct list_elem *A,
 +		const struct list_elem *B, void *aux UNUSED) {
@@ -125,7 +127,7 @@
 > 해당 프로세스의 종료 시간대를 비교하여 정렬에 사용할 수 있는 함수 생성
 
 ## 3. 인터럽트 행동 규약
-- timer의 행동 규약은 [[timer-kor|여기]]를 참고
+
 ```c
 timer_interrupt (struct intr_frame *args UNUSED) {
  	ticks++;

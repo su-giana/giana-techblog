@@ -81,62 +81,34 @@ init_thread (struct thread *t, const char *name, int priority) {
 > [!NOTE] What is GDT?
 > GDT stands for Global Descriptor Table. It is a data structure used in the x86 architecture to manage memory segmentation. the use of the Global Descriptor Table is often replaced or supplemented by the Long Mode Global Descriptor Table (LGDT), which is part of the x86-64 architecture.
 
-## thread의 tick
+### Current Thread
 ```c
-static void
-schedule (void) {
-	struct thread *curr = running_thread ();
-	struct thread *next = next_thread_to_run ();
-
-	ASSERT (intr_get_level () == INTR_OFF);
-	ASSERT (curr->status != THREAD_RUNNING);
-	ASSERT (is_thread (next));
-	/* Mark us as running. */
-	next->status = THREAD_RUNNING;
-
-	/* Start new time slice. */
-	thread_ticks = 0;
-
-#ifdef USERPROG
-	/* Activate the new address space. */
-	process_activate (next);
-#endif
-
-	if (curr != next) {
-		/* If the thread we switched from is dying, destroy its struct
-		   thread. This must happen late so that thread_exit() doesn't
-		   pull out the rug under itself.
-		   We just queuing the page free reqeust here because the page is
-		   currently used by the stack.
-		   The real destruction logic will be called at the beginning of the
-		   schedule(). */
-		if (curr && curr->status == THREAD_DYING && curr != initial_thread) {
-			ASSERT (curr != next);
-			list_push_back (&destruction_req, &curr->elem);
-		}
-
-		/* Before switching the thread, we first save the information
-		 * of current running. */
-		thread_launch (next);
-	}
-}
-
-// 타이머 틱마다 인터럽트 핸들러에 의하여 호출
+/* Returns the running thread.
+ * Read the CPU's stack pointer `rsp', and then round that
+ * down to the start of a page.  Since `struct thread' is
+ * always at the beginning of a page and the stack pointer is
+ * somewhere in the middle, this locates the curent thread. */
+#define running_thread() ((struct thread *) (pg_round_down (rrsp ())))
+```
+## thread가 tick을 재는 방법
+```c
+/* Called by the timer interrupt handler at each timer tick.
+   Thus, this function runs in an external interrupt context. */
 void
 thread_tick (void) {
 	struct thread *t = thread_current ();
 
 	/* Update statistics. */
-	if (t == idle_thread)  // 아무것도 동작하지 않는 상태
+	if (t == idle_thread)
 		idle_ticks++;
 #ifdef USERPROG
-	else if (t->pml4 != NULL)  // 사용자 레벨 코드의 사용시간 측정
+	else if (t->pml4 != NULL)
 		user_ticks++;
 #endif
-	else    // 커널 레벨 코드의 사용시간 측정
+	else
 		kernel_ticks++;
 
-	/* Enforce preemption. */
+// time_slice가 될 때까지 CPU 사용권을 다른 스레드에 넘김
 	if (++thread_ticks >= TIME_SLICE)
 		intr_yield_on_return ();
 }
