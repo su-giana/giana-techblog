@@ -30,6 +30,7 @@
         main.appendChild(obj);
     }
     add_posting("woowa-tech-second-week-kor", "fp.png" ,"우아한 테크코스 2주차" , "함수형 프로그래밍 시도해보고 신세계 맛보기");
+    add_posting("woowa-tech-testcode-kor", "woowa.png", '우아한 테크코스 테스트 코드 분석', "우아한 형제들의 커스텀 테스트코드는 어떻게 생겼을까?");
 </script>
 
 <style>
