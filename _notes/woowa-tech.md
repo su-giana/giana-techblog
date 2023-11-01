@@ -29,7 +29,7 @@
         obj.appendChild(div);
         main.appendChild(obj);
     }
-    add_posting("woowa-tech-second-week-kor", "fp.png" ,"우아한 테크코스 2주차" , "함수형 프로그래밍 시도해보고 신세계 맛보기");
+    add_posting("woowa-tech-second-week-kor", "fp.png" ,"Woowa Tech Course Second Week" , "함수형 프로그래밍 시도해보고 신세계 맛보기");
 </script>
 
 <style>
