@@ -5,16 +5,16 @@ title: Home
 <h1>나를 죽이지 못하는 것은 나를 강하게 만든다 🍀</h1>
 <div  width="1500vw" height="200vh" style="background: #E8F3D6">
 <p style="padding: 2vw 1vh; border-radius: 4px;">
-  💰 핀테크에 관심이 있는 <span style="font-weight: bold">신입 개발자</span>
-  <br><br>
+  💰 핀테크에 관심이 있는 신입 백엔드 개발자
+  <br>
   👩‍🦯  사용자만을 생각해서, 최적의 기술을 제공합니다
-  <br><br>
+  <br>
   🗣  효율적인 소통과 협업을 통한 지속 가능한 개발 생활
 </p>
 </div>
 
 <div style="padding:1vw 1vh; display:flex; justify-content:flex-start;">
-<img src="../assets/image.jpg" height="250em" width="250em" style="border-radius:4px; margin: 0em 0em; padding-right:2em;">
+<img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px; margin: 0em 0em; padding-right:2em;">
 <div style="padding:1vw 0vh;">
 <span style="font-size: larger; padding: 2vw 0vh; color:#FAAB78;">Contact 📟. <br><strong style="font-size: x-larger; color: black;">giananews@gmail.com</strong></span>
 <br><br>
