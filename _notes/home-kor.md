@@ -64,6 +64,7 @@ title: Home
     add_posting("whameleon-kor", "cameleon.png" ,"Whameleon 프로젝트", "유학생들을 위한 체크카드 충전 시스템");
     add_posting("pintos-kaist-kor", "pintos.png", "Pintos Kaist", "Computer Science 심화 이해를 위한 운영체제, 네트워크, 데이터 베이스");
     add_posting("woowa-tech-kor", "woowa.png", "우아한 테크코스", "제발 붙여주세요");
+    add_posting("conference-kor", "conference.png", "컨퍼런스", "컨퍼런스 후기");
 </script>
 
 <style>
