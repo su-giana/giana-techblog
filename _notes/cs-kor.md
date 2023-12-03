@@ -1,3 +1,7 @@
+---
+title: CS
+---
+<div id="postings"></div>
 
 <script>
     function add_posting(url, image, title, des)
@@ -27,6 +31,7 @@
         obj.appendChild(div);
         main.appendChild(obj);
     }
+    
     add_posting("os-kor", "os.png", "Operating System", "운영체제 이해와 예제, 실무를 중심으로");
 </script>
 

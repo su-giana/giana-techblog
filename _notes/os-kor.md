@@ -1,3 +1,7 @@
+---
+title: OS
+---
+<div id="postings"></div>
 
 <script>
     function add_posting(url, image, title, des)
