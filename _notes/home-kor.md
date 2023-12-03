@@ -17,7 +17,7 @@ title: Home
 <img src="../assets/image.jpg" height="300em" width="300em" style="border-radius:4px; margin: 0em 0em; padding-right:2em;">
 <div style="padding:1vw 0vh;">
 <span style="font-size: larger; padding: 2vw 0vh; color:#FAAB78;">Contact 📟. <br><strong style="font-size: x-larger; color: black;">giananews@gmail.com</strong></span>
-<br><br>
+<br>
 <span style="font-size: larger; padding: 2vw 0vh; color: #FAAB78;">Github 🫙.<br> <strong style="font-size: x-larger; color: black;">
 <a href="https://github.com/su-giana/">Github Link</a>
 </strong></span>
@@ -62,7 +62,7 @@ title: Home
         main.appendChild(obj);
     }
     add_posting("whameleon-kor", "cameleon.png" ,"Whameleon 프로젝트", "유학생들을 위한 체크카드 충전 시스템");
-    add_posting("pintos-kaist-kor", "pintos.png", "Pintos Kaist", "Computer Science 심화 이해를 위한 운영체제, 네트워크, 데이터 베이스");
+    add_posting("cs-kor", "cs.png", "Computer Science", "Computer Science 심화 이해를 위한 운영체제, 네트워크, 데이터 베이스");
     add_posting("woowa-tech-kor", "woowa.png", "우아한 테크코스", "제발 붙여주세요");
     add_posting("conference-kor", "conference.png", "컨퍼런스", "컨퍼런스 후기");
 </script>
